@@ -98,12 +98,12 @@ list(APPEND booksim_srcs
 # # target_compile_options(booksim2_main PRIVATE -UTRACING_ON)
 
 # TARGET: Booksim Library (libbooksim2.a)
-add_library(booksim2 SHARED ${booksim_srcs})
+add_library(booksim2 STATIC ${booksim_srcs})
 target_include_directories(booksim2 PUBLIC  ${booksim_incs})
 target_include_directories(booksim2 PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
-# target_compile_definitions(booksim2 PRIVATE CREATE_LIBRARY)
+target_compile_definitions(booksim2 PRIVATE CREATE_LIBRARY)
 set_target_properties(booksim2 PROPERTIES
-    # ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}
+    ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}
     LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}
 )
 # # Remove globally set TRACING_ON flag

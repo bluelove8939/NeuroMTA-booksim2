@@ -152,7 +152,7 @@ void Configuration::ParseFile(string const & filename)
     exit(-1);
   }
 
-  yyparse();
+  // yyparse();
 
   fclose(_config_file);
   _config_file = 0;
@@ -161,7 +161,7 @@ void Configuration::ParseFile(string const & filename)
 void Configuration::ParseString(string const & str)
 {
   _config_string = str + ';';
-  yyparse();
+  // yyparse();
   _config_string = "";
 }
 

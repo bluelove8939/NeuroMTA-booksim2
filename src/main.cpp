@@ -151,37 +151,37 @@ bool Simulate( BookSimConfig const & config )
 }
 
 
-int main( int argc, char **argv )
-{
+// int main( int argc, char **argv )
+// {
 
-  BookSimConfig config;
+//   BookSimConfig config;
 
 
-  if ( !ParseArgs( &config, argc, argv ) ) {
-    cerr << "Usage: " << argv[0] << " configfile... [param=value...]" << endl;
-    return 0;
- } 
+//   if ( !ParseArgs( &config, argc, argv ) ) {
+//     cerr << "Usage: " << argv[0] << " configfile... [param=value...]" << endl;
+//     return 0;
+//  } 
 
   
-  /*initialize routing, traffic, injection functions
-   */
-  InitializeRoutingMap( config );
+//   /*initialize routing, traffic, injection functions
+//    */
+//   InitializeRoutingMap( config );
 
-  gPrintActivity = (config.GetInt("print_activity") > 0);
-  gTrace = (config.GetInt("viewer_trace") > 0);
+//   gPrintActivity = (config.GetInt("print_activity") > 0);
+//   gTrace = (config.GetInt("viewer_trace") > 0);
   
-  string watch_out_file = config.GetStr( "watch_out" );
-  if(watch_out_file == "") {
-    gWatchOut = NULL;
-  } else if(watch_out_file == "-") {
-    gWatchOut = &cout;
-  } else {
-    gWatchOut = new ofstream(watch_out_file.c_str());
-  }
+//   string watch_out_file = config.GetStr( "watch_out" );
+//   if(watch_out_file == "") {
+//     gWatchOut = NULL;
+//   } else if(watch_out_file == "-") {
+//     gWatchOut = &cout;
+//   } else {
+//     gWatchOut = new ofstream(watch_out_file.c_str());
+//   }
   
 
-  /*configure and run the simulator
-   */
-  bool result = Simulate( config );
-  return result ? -1 : 0;
-}
+//   /*configure and run the simulator
+//    */
+//   bool result = Simulate( config );
+//   return result ? -1 : 0;
+// }
