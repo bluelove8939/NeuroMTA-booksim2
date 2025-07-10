@@ -76,6 +76,7 @@ list(APPEND booksim_srcs
     main.cpp
     misc_utils.cpp
     module.cpp
+    mta_trafficmanager.cpp  # ADDED SOURCE CODE
     outputset.cpp
     packet_reply_info.cpp
     random_utils.cpp
