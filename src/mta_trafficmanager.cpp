@@ -541,13 +541,20 @@ void MTATrafficManager::_Step()
  */
 
 MTAPacketDescriptor::MTAPacketDescriptor() {}
-MTAPacketDescriptor::MTAPacketDescriptor(PacketType packet_type, const int packet_size, Flit::FlitType flit_type, vector<packet_arg_t> args)
-: packet_type(packet_type), packet_size(packet_size), flit_type(flit_type), args(args) {}
+MTAPacketDescriptor::MTAPacketDescriptor(PacketType packet_type, const int packet_size, Flit::FlitType flit_type, void *payload, const int payload_size)
+: packet_type(packet_type), packet_size(packet_size), flit_type(flit_type), payload_size(payload_size) {
+    this->payload = (void *)malloc(payload_size);
+    memcpy(this->payload, payload, payload_size);
+}
 
-MTAPacketDescriptor MTAPacketDescriptor::NewDataPacket(const packet_arg_t addr, const packet_arg_t size, const bool is_write, const bool is_response) {
+MTAPacketDescriptor::~MTAPacketDescriptor() {
+    free(this->payload);
+}
+
+MTAPacketDescriptor MTAPacketDescriptor::NewDataPacket(const uint64_t addr, const uint64_t size, const bool is_write, const bool is_response) {
     PacketType packet_type;
     Flit::FlitType flit_type;
-    vector<packet_arg_t> args = vector<packet_arg_t>({addr, size});
+    uint64_t args[2] = {addr, size};
 
     if (is_write) {
         if (is_response)    {packet_type = PacketType::DATA_WRITE_RESPONSE; flit_type = Flit::FlitType::WRITE_REPLY;}
@@ -557,31 +564,31 @@ MTAPacketDescriptor MTAPacketDescriptor::NewDataPacket(const packet_arg_t addr, 
         else                {packet_type = PacketType::DATA_READ_REQUEST;   flit_type = Flit::FlitType::READ_REQUEST;}
     }
 
-    return MTAPacketDescriptor(packet_type, size+1, flit_type, args);
+    return MTAPacketDescriptor(packet_type, size+1, flit_type, args, 2 * sizeof(uint64_t));
 }
 
-MTAPacketDescriptor MTAPacketDescriptor::NewControlPacket(const packet_arg_t size, vector<packet_arg_t> args, const bool is_response) {
+MTAPacketDescriptor MTAPacketDescriptor::NewControlPacket(void *command_payload, const int payload_size, const bool is_response) {
     PacketType packet_type = is_response ? PacketType::CONTROL_RESPONSE : PacketType::CONTROL_REQUEST;
     Flit::FlitType flit_type = Flit::FlitType::WRITE_REQUEST;
 
-    return MTAPacketDescriptor(packet_type, size, flit_type, args);
+    return MTAPacketDescriptor(packet_type, 1, flit_type, command_payload, payload_size);
 }
 
-int MTAPacketDescriptor::GetDataAddr() const {
+uint64_t MTAPacketDescriptor::GetDataAddr() {
     assert(this->IsDataPacket());
-    return args[0];
+    return ((uint64_t *)(this->payload))[0];
 }
 
-int MTAPacketDescriptor::GetDataSize() const {
+uint64_t MTAPacketDescriptor::GetDataSize() {
     assert(this->IsDataPacket());
-    return args[1];
+    return ((uint64_t *)(this->payload))[1];
 }
 
-bool  MTAPacketDescriptor::IsDataPacket() const {
+bool  MTAPacketDescriptor::IsDataPacket() {
     return packet_type == PacketType::DATA_READ_REQUEST || packet_type == PacketType::DATA_READ_RESPONSE || packet_type == PacketType::DATA_WRITE_REQUEST || packet_type == PacketType::DATA_WRITE_RESPONSE;
 }
 
-bool  MTAPacketDescriptor::IsControlPacket() const {
+bool  MTAPacketDescriptor::IsControlPacket() {
     return packet_type == PacketType::CONTROL_RESPONSE || packet_type == PacketType::CONTROL_REQUEST;
 }
 

@@ -91,8 +91,6 @@ public:
  *                          is a control packet
  */
 
-typedef uint64_t packet_arg_t;
-
 class MTAPacketDescriptor
 {
 public:
@@ -108,18 +106,21 @@ public:
     PacketType              packet_type;    // type of the packet
     int                     packet_size;    // number of flits for the packet
     Flit::FlitType          flit_type;      // type of the flit
-    vector<packet_arg_t>    args;        // Data Packet: {addr, size}   Control Packet: {...}
+    // vector<packet_arg_t>    args;           // Data Packet: {addr, size}   Control Packet: {...}
+    void *payload;  // Data Packet: {addr, size}   Control Packet: {Command?}
+    int payload_size;
 
     MTAPacketDescriptor();
-    MTAPacketDescriptor(PacketType packet_type, const int packet_size, Flit::FlitType flit_type, vector<packet_arg_t> args);
+    MTAPacketDescriptor(PacketType packet_type, const int packet_size, Flit::FlitType flit_type, void *payload, const int payload_size);
+    ~MTAPacketDescriptor();
 
-    static MTAPacketDescriptor NewDataPacket(const packet_arg_t addr, const packet_arg_t size, const bool is_write, const bool is_response);
-    static MTAPacketDescriptor NewControlPacket(const packet_arg_t size, vector<packet_arg_t> args, const bool is_response);
+    static MTAPacketDescriptor NewDataPacket(const uint64_t addr, const uint64_t size, const bool is_write, const bool is_response);
+    static MTAPacketDescriptor NewControlPacket(void *command_payload, const int payload_size, const bool is_response);
 
-    int   GetDataAddr()     const;
-    int   GetDataSize()     const;
-    bool  IsDataPacket()    const;
-    bool  IsControlPacket() const;
+    uint64_t    GetDataAddr();
+    uint64_t    GetDataSize();
+    bool        IsDataPacket();
+    bool        IsControlPacket();
 };
 
 
