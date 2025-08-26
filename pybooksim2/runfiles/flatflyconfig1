@@ -1,4 +1,4 @@
-// $Id$
+// $Id $
 
 // Copyright (c) 2007-2015, Trustees of The Leland Stanford Junior University
 // All rights reserved.
@@ -24,9 +24,35 @@
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 // POSSIBILITY OF SUCH DAMAGE.
 
-///////////////////BEGIN IMMUTABLE////////////////////////////////
+
+
+// Flatfly 
 //
-// Flow control
+// #node = k^(n+1)
+//
+// x, y, specifies the arrangement of routers in x and y dim
+// xr, yr specifiies the arayment of clients in a router
+//
+topology = flatfly;
+
+
+c  = 4;
+k  = 4;
+n  = 2;
+x  = 4;
+y  = 4;
+xr = 2;
+yr = 2;
+limit = 64;
+
+
+//
+// Routing
+//
+routing_function = ran_min;
+//routing_function = ugal;
+//
+// Flow co1	ntrol
 //
 read_request_begin_vc  = 0;
 read_request_end_vc    = 5;
@@ -34,7 +60,7 @@ write_reply_begin_vc   = 2;
 write_reply_end_vc     = 7;
 
 read_reply_begin_vc    = 8;
-read_reply_end_vc      = 13;
+read_reply_end_vc      = 12;
 write_request_begin_vc = 10;
 write_request_end_vc   = 15;
 
@@ -45,10 +71,10 @@ vc_buf_size = 8;
 wait_for_tail_credit = 1;
 
 //
-// Router architectureq
+// Router architecture
 //
-vc_allocator = islip; 
-sw_allocator = islip;
+vc_allocator = select; 
+sw_allocator = select;
 alloc_iters  = 1;
 
 credit_delay   = 2;
@@ -64,62 +90,13 @@ internal_speedup  = 1.0;
 //
 // Traffic
 //
+//sim_type = latency;
+//max_samples    = 10;
+//batch_size         = 100;
 
-sim_type = latency;
-
-warmup_periods = 3;
-
-sample_period  = 1000;  
-
-sim_count          = 1;
-
-///////////////////END IMMUTABLE////////////////////////////////
-
-
-//
-// CMesh
-//
-// #node = K^n*c
-//
-topology = cmesh;
-
-k = 4;
-n  = 2;
-c  = 4;
-//
-// Routing
-//
-routing_function = dor_no_express;
-
-//physical_subnetworks = 1;
-
-x  = 4;
-y  = 4;
-xr = 2;
-yr = 2;
-
-//the nodes above "limit" does not emit or receiv traffic
-//limit = 0;
-
-
-
-use_read_write = 1;
-
-packet_size = 1;
-
-read_reply_size = 1;
-read_request_size = 1;
-write_reply_size = 1;
-write_request_size = 1;
-
+max_outstanding_requests = 8;
 traffic       = bitcomp;
-
-injection_rate = 0.1; //ignored on batch mode
-
-speculative = 0;
-
-batch_size = 2000;
-
-print_activity =0;
-
-max_outstanding_requests = 4;
+warmup_periods = 3;
+injection_rate = 0.49;
+sample_period  = 10000;  
+sim_count          = 1;

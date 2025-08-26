@@ -91,7 +91,7 @@ c  = 4;
 //
 routing_function = dor_no_express;
 
-//physical_subnetworks = 1;
+physical_subnetworks = 1;
 
 x  = 4;
 y  = 4;
@@ -99,7 +99,7 @@ xr = 2;
 yr = 2;
 
 //the nodes above "limit" does not emit or receiv traffic
-//limit = 0;
+limit = 0;
 
 
 

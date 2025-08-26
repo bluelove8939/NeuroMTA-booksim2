@@ -377,16 +377,26 @@ void MTATrafficManager::_Step()
                         assert((vc >= vc_start) && (vc <= vc_end));
                         if (!dest_buf->IsAvailableFor(vc))
                         {
-
+                            if(cf->watch) {
+                                *gWatchOut << GetSimTime() << " | " << FullName() << " | "
+                                           << "  Output VC " << vc << " is busy." << endl;
+                            }
                         }
                         else
                         {
                             if (dest_buf->IsFullFor(vc))
                             {
-
+                                if(cf->watch) {
+                                    *gWatchOut << GetSimTime() << " | " << FullName() << " | "
+                                               << "  Output VC " << vc << " is full." << endl;
+                                }
                             }
                             else
                             {
+                                if(cf->watch) {
+                                    *gWatchOut << GetSimTime() << " | " << FullName() << " | "
+                                               << "  Selected output VC " << vc << "." << endl;
+                                }
                                 cf->vc = vc;
                                 break;
                             }
@@ -396,13 +406,22 @@ void MTATrafficManager::_Step()
 
                 if (cf->vc == -1)
                 {
-
+                    if(cf->watch) {
+                        *gWatchOut << GetSimTime() << " | " << FullName() << " | "
+                                   << "No output VC found for flit " << cf->id
+                                   << "." << endl;
+                    }
                 }
                 else
                 {
                     if (dest_buf->IsFullFor(cf->vc))
                     {
-
+                        if(cf->watch) {
+                            *gWatchOut << GetSimTime() << " | " << FullName() << " | "
+                                       << "Selected output VC " << cf->vc
+                                       << " is full for flit " << cf->id
+                                       << "." << endl;
+                        }
                     }
                     else
                     {
@@ -430,10 +449,19 @@ void MTATrafficManager::_Step()
                             assert(router);
                             int in_channel = inject->GetSinkPort();
                             _rf(router, f, in_channel, &f->la_route_set, false);
+                            if(f->watch) {
+                                *gWatchOut << GetSimTime() << " | "
+                                           << "node" << n << " | "
+                                           << "Generating lookahead routing info for flit " << f->id
+                                           << "." << endl;
+                            }
+                        } else if(f->watch) {
+                            *gWatchOut << GetSimTime() << " | "
+                                       << "node" << n << " | "
+                                       << "Already generated lookahead routing info for flit " << f->id
+                                       << " (NOQ)." << endl;
                         }
-                    }
-                    else
-                    {
+                    } else {
                         f->la_route_set.Clear();
                     }
 
@@ -458,6 +486,15 @@ void MTATrafficManager::_Step()
                     assert(f->pri >= 0);
                 }
 
+                if(f->watch) {
+                    *gWatchOut << GetSimTime() << " | "
+                               << "node" << n << " | "
+                               << "Injecting flit " << f->id
+                               << " into subnet " << subnet
+                               << " at time " << _time
+                               << " with priority " << f->pri
+                               << "." << endl;
+                }
                 f->itime = _time;
 
                 // Pass VC "back"
@@ -495,6 +532,13 @@ void MTATrafficManager::_Step()
                 Flit *const f = iter->second;
 
                 f->atime = _time;
+                if(f->watch) {
+                    *gWatchOut << GetSimTime() << " | "
+                               << "node" << n << " | "
+                               << "Injecting credit for VC " << f->vc 
+                               << " into subnet " << subnet 
+                               << "." << endl;
+                }
 
                 Credit *const c = Credit::New();
                 c->vc.insert(f->vc);
@@ -515,6 +559,9 @@ void MTATrafficManager::_Step()
 
     ++_time;
     assert(_time);
+    if(gTrace){
+        cout<<"TIME "<<_time<<endl;
+    }
 }
 
 
@@ -532,29 +579,16 @@ void MTATrafficManager::_Step()
  * API Description
  *   - NewDataPacket:       constructor for the data read/write packets
  *   - NewControlPacket:    contructor for the control packets
- *   - GetDataAddr:         get address of the data request and response
- *   - GetDataSize:         get size of the requested data
- *   - IsDataPacket:        returns a flag indicating whether the given packet 
- *                          is a data packet
- *   - IsControlPacket:     returns a flag indicating whether the given packet
- *                          is a control packet
  */
 
 MTAPacketDescriptor::MTAPacketDescriptor() {}
-MTAPacketDescriptor::MTAPacketDescriptor(PacketType packet_type, const int packet_size, Flit::FlitType flit_type, void *payload, const int payload_size)
-: packet_type(packet_type), packet_size(packet_size), flit_type(flit_type), payload_size(payload_size) {
-    this->payload = (void *)malloc(payload_size);
-    memcpy(this->payload, payload, payload_size);
-}
+MTAPacketDescriptor::MTAPacketDescriptor(PacketType packet_type, const int packet_size, Flit::FlitType flit_type)
+: packet_type(packet_type), packet_size(packet_size), flit_type(flit_type) {}
+MTAPacketDescriptor::~MTAPacketDescriptor() {}
 
-MTAPacketDescriptor::~MTAPacketDescriptor() {
-    free(this->payload);
-}
-
-MTAPacketDescriptor MTAPacketDescriptor::NewDataPacket(const uint64_t addr, const uint64_t size, const bool is_write, const bool is_response) {
+MTAPacketDescriptor MTAPacketDescriptor::NewDataPacket(const uint64_t size, const bool is_write, const bool is_response) {
     PacketType packet_type;
     Flit::FlitType flit_type;
-    uint64_t args[2] = {addr, size};
 
     if (is_write) {
         if (is_response)    {packet_type = PacketType::DATA_WRITE_RESPONSE; flit_type = Flit::FlitType::WRITE_REPLY;}
@@ -564,32 +598,14 @@ MTAPacketDescriptor MTAPacketDescriptor::NewDataPacket(const uint64_t addr, cons
         else                {packet_type = PacketType::DATA_READ_REQUEST;   flit_type = Flit::FlitType::READ_REQUEST;}
     }
 
-    return MTAPacketDescriptor(packet_type, size+1, flit_type, args, 2 * sizeof(uint64_t));
+    return MTAPacketDescriptor(packet_type, size+1, flit_type);
 }
 
-MTAPacketDescriptor MTAPacketDescriptor::NewControlPacket(void *command_payload, const int payload_size, const bool is_response) {
+MTAPacketDescriptor MTAPacketDescriptor::NewControlPacket(const int payload_size, const bool is_response) {
     PacketType packet_type = is_response ? PacketType::CONTROL_RESPONSE : PacketType::CONTROL_REQUEST;
     Flit::FlitType flit_type = Flit::FlitType::WRITE_REQUEST;
 
-    return MTAPacketDescriptor(packet_type, 1, flit_type, command_payload, payload_size);
-}
-
-uint64_t MTAPacketDescriptor::GetDataAddr() {
-    assert(this->IsDataPacket());
-    return ((uint64_t *)(this->payload))[0];
-}
-
-uint64_t MTAPacketDescriptor::GetDataSize() {
-    assert(this->IsDataPacket());
-    return ((uint64_t *)(this->payload))[1];
-}
-
-bool  MTAPacketDescriptor::IsDataPacket() {
-    return packet_type == PacketType::DATA_READ_REQUEST || packet_type == PacketType::DATA_READ_RESPONSE || packet_type == PacketType::DATA_WRITE_REQUEST || packet_type == PacketType::DATA_WRITE_RESPONSE;
-}
-
-bool  MTAPacketDescriptor::IsControlPacket() {
-    return packet_type == PacketType::CONTROL_RESPONSE || packet_type == PacketType::CONTROL_REQUEST;
+    return MTAPacketDescriptor(packet_type, payload_size+1, flit_type);
 }
 
 
@@ -621,15 +637,20 @@ bool  MTAPacketDescriptor::IsControlPacket() {
  */
 
 MTATrafficManagerInterface::MTATrafficManagerInterface(const Configuration &config, const vector<Network *> &net)
-    :_traffic_manager(config, net, this)
+    // :_traffic_manager(config, net, this)
 {
-    _unhandled_packets = vector<map<int, MTAPacketDescriptor>>(_traffic_manager._nodes);
-    _ongoing_packet_ids = vector<int>(_traffic_manager._nodes, -1);
+    _traffic_manager_p = new MTATrafficManager(config, net, this);
+    _unhandled_packets = vector<map<int, MTAPacketDescriptor>>(_traffic_manager_p->_nodes);
+    _ongoing_packet_ids = vector<int>(_traffic_manager_p->_nodes, -1);
+}
+
+MTATrafficManagerInterface::~MTATrafficManagerInterface() {
+    delete _traffic_manager_p;
 }
 
 int  MTATrafficManagerInterface::SendPacket(const int src_id, const int dst_id, int subnet, MTAPacketDescriptor packet_desc) {
-    const int pid = _traffic_manager._GeneratePacket(
-        src_id, -1, 0, _traffic_manager._time, subnet, packet_desc.packet_size, packet_desc.flit_type, NULL, dst_id
+    const int pid = _traffic_manager_p->_GeneratePacket(
+        src_id, -1, 0, _traffic_manager_p->_time, subnet, packet_desc.packet_size, packet_desc.flit_type, NULL, dst_id
     );
 
     _unhandled_packets[dst_id][pid] = packet_desc;
@@ -660,9 +681,13 @@ MTAPacketDescriptor MTATrafficManagerInterface::GetPacketDescriptor(const int no
 }
 
 bool MTATrafficManagerInterface::IsNodeBusy(const int node_id) const {
-    return (GetPID(node_id) == -1) ? true : false; 
+    return (GetPID(node_id) != -1) ? true : false; 
 }
 
 void MTATrafficManagerInterface::Step() {
-    _traffic_manager._Step();
+    _traffic_manager_p->_Step();
+}
+
+MTATrafficManager * MTATrafficManagerInterface::GetTrafficManager()  const {
+    return _traffic_manager_p;
 }

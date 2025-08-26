@@ -1,4 +1,4 @@
-// $Id$
+// $Id $
 
 // Copyright (c) 2007-2015, Trustees of The Leland Stanford Junior University
 // All rights reserved.
@@ -24,32 +24,20 @@
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 // POSSIBILITY OF SUCH DAMAGE.
 
-///////////////////BEGIN IMMUTABLE////////////////////////////////
+
 //
 // Flow control
 //
-read_request_begin_vc  = 0;
-read_request_end_vc    = 5;
-write_reply_begin_vc   = 2;
-write_reply_end_vc     = 7;
 
-read_reply_begin_vc    = 8;
-read_reply_end_vc      = 13;
-write_request_begin_vc = 10;
-write_request_end_vc   = 15;
-
-// Total number of VCs must match the above assignments
 num_vcs     = 16;
 vc_buf_size = 8;
 
 wait_for_tail_credit = 1;
 
-//
-// Router architectureq
-//
+
 vc_allocator = islip; 
 sw_allocator = islip;
-alloc_iters  = 1;
+alloc_iters  = 2;
 
 credit_delay   = 2;
 routing_delay  = 0;
@@ -73,53 +61,26 @@ sample_period  = 1000;
 
 sim_count          = 1;
 
-///////////////////END IMMUTABLE////////////////////////////////
 
 
-//
-// CMesh
-//
-// #node = K^n*c
-//
-topology = cmesh;
+//topoogy
 
-k = 4;
+topology = mesh;
+k  = 8;
 n  = 2;
-c  = 4;
 //
 // Routing
-//
-routing_function = dor_no_express;
-
-//physical_subnetworks = 1;
-
-x  = 4;
-y  = 4;
-xr = 2;
-yr = 2;
-
-//the nodes above "limit" does not emit or receiv traffic
-//limit = 0;
 
 
-
-use_read_write = 1;
+routing_function = dor;
 
 packet_size = 1;
 
-read_reply_size = 1;
-read_request_size = 1;
-write_reply_size = 1;
-write_request_size = 1;
+use_read_write = 0;
 
-traffic       = bitcomp;
+traffic       = uniform;
 
-injection_rate = 0.1; //ignored on batch mode
+injection_rate = 0.2;
 
-speculative = 0;
 
-batch_size = 2000;
 
-print_activity =0;
-
-max_outstanding_requests = 4;

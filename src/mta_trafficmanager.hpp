@@ -1,7 +1,7 @@
 #ifndef _MTA_TRAFFICMANAGER_HPP_
 #define _MTA_TRAFFICMANAGER_HPP_
 
-#include <iostream>
+// #include <iostream>
 #include <vector>
 #include <list>
 
@@ -106,21 +106,13 @@ public:
     PacketType              packet_type;    // type of the packet
     int                     packet_size;    // number of flits for the packet
     Flit::FlitType          flit_type;      // type of the flit
-    // vector<packet_arg_t>    args;           // Data Packet: {addr, size}   Control Packet: {...}
-    void *payload;  // Data Packet: {addr, size}   Control Packet: {Command?}
-    int payload_size;
 
     MTAPacketDescriptor();
-    MTAPacketDescriptor(PacketType packet_type, const int packet_size, Flit::FlitType flit_type, void *payload, const int payload_size);
+    MTAPacketDescriptor(PacketType packet_type, const int packet_size, Flit::FlitType flit_type);
     ~MTAPacketDescriptor();
 
-    static MTAPacketDescriptor NewDataPacket(const uint64_t addr, const uint64_t size, const bool is_write, const bool is_response);
-    static MTAPacketDescriptor NewControlPacket(void *command_payload, const int payload_size, const bool is_response);
-
-    uint64_t    GetDataAddr();
-    uint64_t    GetDataSize();
-    bool        IsDataPacket();
-    bool        IsControlPacket();
+    static MTAPacketDescriptor NewDataPacket(const uint64_t size, const bool is_write, const bool is_response);
+    static MTAPacketDescriptor NewControlPacket(const int payload_size, const bool is_response);
 };
 
 
@@ -154,13 +146,14 @@ public:
 class MTATrafficManagerInterface
 {
 private:
-    MTATrafficManager _traffic_manager;     // traffic manager
+    MTATrafficManager *_traffic_manager_p;     // traffic manager
 
     vector<map<int, MTAPacketDescriptor>>   _unhandled_packets;
     vector<int>                             _ongoing_packet_ids;
 
 public:
     MTATrafficManagerInterface(const Configuration &config, const vector<Network *> &net);
+    ~MTATrafficManagerInterface();
     int  SendPacket(const int src_id, const int dst_id, int subnet, MTAPacketDescriptor packet_desc);
     void ReceivePacket(const int dst_id, const int pid);
     void HandlePacket(const int node_id);
@@ -168,6 +161,7 @@ public:
     MTAPacketDescriptor GetPacketDescriptor(const int node_id);
     bool IsNodeBusy(const int node_id) const;
     void Step();
+    MTATrafficManager * GetTrafficManager()  const;
 };
 
 #endif

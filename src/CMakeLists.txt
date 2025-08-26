@@ -8,7 +8,7 @@ ADD_FLEX_BISON_DEPENDENCY(booksim_config_lexer booksim_config_parser)
 set_source_files_properties(
     ${BISON_booksim_config_parser_OUTPUT_SOURCE}                  
     ${FLEX_booksim_config_lexer_OUTPUTS}
-    PROPERTIES LANGUAGE CXX
+    PROPERTIES LANGUAGE C   # <--- Changed from CXX to C (C++ symbol mangling)
 )
 
 list(APPEND booksim_incs 
@@ -70,18 +70,20 @@ list(APPEND booksim_srcs
     credit.cpp
     flit.cpp
     flitchannel.cpp
-    # gputrafficmanager.cpp
     injection.cpp
-    # interconnect_interface.cpp
-    main.cpp
+    # main.cpp              # main.cpp is removed from the static library and global variables are integrated in the py_interface
     misc_utils.cpp
     module.cpp
+    mta_icnt_wrapper.cpp    # ADDED SOURCE CODE
     mta_trafficmanager.cpp  # ADDED SOURCE CODE
     outputset.cpp
     packet_reply_info.cpp
+    py_interface.cpp        # ADDED SOURCE CODE
     random_utils.cpp
     rng_double_wrapper.cpp
     rng_wrapper.cpp
+    # rng-double.c
+    # rng.c
     routefunc.cpp
     stats.cpp
     traffic.cpp
@@ -89,22 +91,22 @@ list(APPEND booksim_srcs
     vc.cpp
 )
 
-# # TARGET: Standalone Booksim Executable
-# # list(REMOVE_ITEM ${booksim_srcs} interconnect_interface.cpp)
-# add_executable(booksim2_main ${booksim_srcs})
-# target_include_directories(booksim2_main PUBLIC  ${booksim_incs})
-# target_include_directories(booksim2_main PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
-# # # Remove globally set TRACING_ON flag
-# # target_compile_options(booksim2_main PRIVATE -UTRACING_ON)
-
 # TARGET: Booksim Library (libbooksim2.a)
 add_library(booksim2 STATIC ${booksim_srcs})
 target_include_directories(booksim2 PUBLIC  ${booksim_incs})
 target_include_directories(booksim2 PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
-target_compile_definitions(booksim2 PRIVATE CREATE_LIBRARY)
+target_compile_options(booksim2 PRIVATE -O3 -fPIC)
 set_target_properties(booksim2 PROPERTIES
-    ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}
-    LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}
+    ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib
+    LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib
 )
-# # Remove globally set TRACING_ON flag
-# target_compile_options(booksim2 PRIVATE -UTRACING_ON)
+
+# TARGET: Booksim main (booksim2main)
+add_executable(booksim2main main.cpp)
+target_include_directories(booksim2main PUBLIC  ${booksim_incs})
+target_include_directories(booksim2main PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
+target_link_libraries(booksim2main ${CMAKE_BINARY_DIR}/lib/libbooksim2.a)
+target_compile_options(booksim2main PRIVATE -O3 -fPIC)
+set_target_properties(booksim2main PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
+)
