@@ -3,17 +3,17 @@
 
 
 
-InterconnectWrapper::InterconnectWrapper(const std::string& config_file) {
-    config.ParseFile(config_file);
-    InitializeRoutingMap(config);
+InterconnectWrapper::InterconnectWrapper(BookSimConfig *config) {
+    this->config = config;
+    InitializeRoutingMap(*config);
 
-    int subnets = config.GetInt("subnets");
+    int subnets = config->GetInt("subnets");
     net.resize(subnets);
     for (int i = 0; i < subnets; ++i) {
-        net[i] = Network::New(config, "");
+        net[i] = Network::New(*config, "");
     }
 
-    this->_icnt_p = new MTATrafficManagerInterface(config, net);
+    this->_icnt_p = new MTATrafficManagerInterface(*config, net);
     this->_node_num = (unsigned long)(net[0]->NumNodes());
 }
 
@@ -33,6 +33,22 @@ bool InterconnectWrapper::dispatch_command(InterconnectCommand *cmd_p) {
     return true;
 }
 
+bool InterconnectWrapper::handle_received_command(InterconnectCommand *cmd_p) {
+    if (cmd_p == NULL      ) return false;
+    if (cmd_p->is_handled ) return false;
+    if (!cmd_p->is_received) return false;
+
+    const int n   = cmd_p->dst_id;
+    const int pid = this->_icnt_p->GetPID(n);
+
+    this->_ongoing_icnt_cmd_map.erase(pid);
+    this->_icnt_p->HandlePacket(n);
+
+    cmd_p->is_handled = true;
+
+    return true;
+}
+
 void InterconnectWrapper::cycle_step() {
     MTAPacketDescriptor packet_desc;
     InterconnectCommand *cmd_p;
@@ -46,10 +62,11 @@ void InterconnectWrapper::cycle_step() {
             pid = this->_icnt_p->GetPID(n);
 
             cmd_p = this->_ongoing_icnt_cmd_map[pid];
-            cmd_p->is_executed = true;
+            cmd_p->is_received = true;
 
-            this->_ongoing_icnt_cmd_map.erase(pid);
-            this->_icnt_p->HandlePacket(n);
+            // // Handle the received packet
+            // this->_ongoing_icnt_cmd_map.erase(pid);
+            // this->_icnt_p->HandlePacket(n);
         }
     }
 
@@ -58,18 +75,23 @@ void InterconnectWrapper::cycle_step() {
         MTAPacketDescriptor packet_desc;
 
         if (cmd_p->is_data) {
-            packet_desc = MTAPacketDescriptor::NewDataPacket(cmd_p->size, cmd_p->is_write, false);
+            packet_desc = MTAPacketDescriptor::NewDataPacket(cmd_p->size, cmd_p->is_write, cmd_p->is_response);
         } else {
-            packet_desc = MTAPacketDescriptor::NewControlPacket(cmd_p->size, false);
+            packet_desc = MTAPacketDescriptor::NewControlPacket(cmd_p->size, cmd_p->is_response);
         }
 
         int pid = this->_icnt_p->SendPacket(cmd_p->src_id, cmd_p->dst_id, cmd_p->subnet, packet_desc);
         if (pid >= 0) {
-            cmd_p->is_executed = false;
+            cmd_p->is_received = false;
+            cmd_p->is_handled  = false;
             this->_ongoing_icnt_cmd_map[pid] = cmd_p;
             this->_current_dispatched_cmd_p = NULL;
         }
     }
+}
+
+bool InterconnectWrapper::is_node_busy(int node_id) const {
+    return _icnt_p->IsNodeBusy(node_id);
 }
 
 MTATrafficManager *InterconnectWrapper::get_traffic_manager() const { 

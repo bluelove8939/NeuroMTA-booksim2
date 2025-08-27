@@ -586,16 +586,16 @@ MTAPacketDescriptor::MTAPacketDescriptor(PacketType packet_type, const int packe
 : packet_type(packet_type), packet_size(packet_size), flit_type(flit_type) {}
 MTAPacketDescriptor::~MTAPacketDescriptor() {}
 
-MTAPacketDescriptor MTAPacketDescriptor::NewDataPacket(const uint64_t size, const bool is_write, const bool is_response) {
+MTAPacketDescriptor MTAPacketDescriptor::NewDataPacket(uint64_t size, const bool is_write, const bool is_response) {
     PacketType packet_type;
     Flit::FlitType flit_type;
 
     if (is_write) {
-        if (is_response)    {packet_type = PacketType::DATA_WRITE_RESPONSE; flit_type = Flit::FlitType::WRITE_REPLY;}
+        if (is_response)    {packet_type = PacketType::DATA_WRITE_RESPONSE; flit_type = Flit::FlitType::WRITE_REPLY;    size=0;}
         else                {packet_type = PacketType::DATA_WRITE_REQUEST;  flit_type = Flit::FlitType::WRITE_REQUEST;}
     } else {
         if (is_response)    {packet_type = PacketType::DATA_READ_RESPONSE;  flit_type = Flit::FlitType::READ_REPLY;}
-        else                {packet_type = PacketType::DATA_READ_REQUEST;   flit_type = Flit::FlitType::READ_REQUEST;}
+        else                {packet_type = PacketType::DATA_READ_REQUEST;   flit_type = Flit::FlitType::READ_REQUEST;   size=0;}
     }
 
     return MTAPacketDescriptor(packet_type, size+1, flit_type);
