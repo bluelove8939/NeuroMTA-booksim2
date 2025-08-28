@@ -33,21 +33,21 @@ bool InterconnectWrapper::dispatch_command(InterconnectCommand *cmd_p) {
     return true;
 }
 
-bool InterconnectWrapper::handle_received_command(InterconnectCommand *cmd_p) {
-    if (cmd_p == NULL      ) return false;
-    if (cmd_p->is_handled ) return false;
-    if (!cmd_p->is_received) return false;
+// bool InterconnectWrapper::handle_received_command(InterconnectCommand *cmd_p) {
+//     // if (cmd_p == NULL      ) return false;
+//     // if (cmd_p->is_handled ) return false;
+//     // if (!cmd_p->is_received) return false;
 
-    const int n   = cmd_p->dst_id;
-    const int pid = this->_icnt_p->GetPID(n);
+//     // const int n   = cmd_p->dst_id;
+//     // const int pid = this->_icnt_p->GetPID(n);
 
-    this->_ongoing_icnt_cmd_map.erase(pid);
-    this->_icnt_p->HandlePacket(n);
+//     // this->_ongoing_icnt_cmd_map.erase(pid);
+//     // this->_icnt_p->HandlePacket(n);
 
-    cmd_p->is_handled = true;
+//     // cmd_p->is_handled = true;
 
-    return true;
-}
+//     return true;
+// }
 
 void InterconnectWrapper::cycle_step() {
     MTAPacketDescriptor packet_desc;
@@ -64,9 +64,10 @@ void InterconnectWrapper::cycle_step() {
             cmd_p = this->_ongoing_icnt_cmd_map[pid];
             cmd_p->is_received = true;
 
-            // // Handle the received packet
-            // this->_ongoing_icnt_cmd_map.erase(pid);
-            // this->_icnt_p->HandlePacket(n);
+            // Handle the received packet
+            this->_ongoing_icnt_cmd_map.erase(pid);
+            this->_icnt_p->HandlePacket(n);
+            cmd_p->is_handled = true;
         }
     }
 
@@ -90,9 +91,9 @@ void InterconnectWrapper::cycle_step() {
     }
 }
 
-bool InterconnectWrapper::is_node_busy(int node_id) const {
-    return _icnt_p->IsNodeBusy(node_id);
-}
+// bool InterconnectWrapper::is_node_busy(int node_id) const {
+//     return _icnt_p->IsNodeBusy(node_id);
+// }
 
 MTATrafficManager *InterconnectWrapper::get_traffic_manager() const { 
     return _icnt_p->GetTrafficManager();

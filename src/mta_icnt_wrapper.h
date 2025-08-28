@@ -40,9 +40,9 @@ public:
     ~InterconnectWrapper();
 
     bool dispatch_command(InterconnectCommand *cmd_p);
-    bool handle_received_command(InterconnectCommand *cmd_p);
+    // bool handle_received_command(InterconnectCommand *cmd_p);
     void cycle_step();
-    bool is_node_busy(int node_id) const;
+    // bool is_node_busy(int node_id) const;
     MTATrafficManager *get_traffic_manager() const;
 };
 

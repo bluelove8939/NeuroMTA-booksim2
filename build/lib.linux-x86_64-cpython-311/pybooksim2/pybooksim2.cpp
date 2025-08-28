@@ -2257,7 +2257,7 @@ static const char __pyx_k_cmd_p[] = "cmd_p";
 static const char __pyx_k_fleid[] = "fleid";
 static const char __pyx_k_range[] = "range";
 static const char __pyx_k_value[] = "value";
-static const char __pyx_k_AV1_1E[] = "\200\001\360\006\000\005\031\320\030,\250A\250V\2601\330\004\027\320\027+\2501\250E\260\021\330\004 \240\001\240\030\250\021";
+static const char __pyx_k_1E_8_1[] = "\200\001\360\006\000\005\030\320\027+\2501\250E\260\021\330\004\026\320\0268\270\001\270\021\330\004\013\2101";
 static const char __pyx_k_config[] = "config";
 static const char __pyx_k_cycles[] = "cycles";
 static const char __pyx_k_dst_id[] = "dst_id";
@@ -2269,16 +2269,13 @@ static const char __pyx_k_subnet[] = "subnet";
 static const char __pyx_k_1E_7q_1[] = "\200\001\360\006\000\005\030\320\027+\2501\250E\260\021\330\004\025\320\0257\260q\270\001\330\004\013\2101";
 static const char __pyx_k_field_b[] = "field_b";
 static const char __pyx_k_field_p[] = "field_p";
-static const char __pyx_k_node_id[] = "node_id";
 static const char __pyx_k_subnets[] = "subnets";
-static const char __pyx_k_1E_6aq_1[] = "\200\001\360\006\000\005\030\320\027+\2501\250E\260\021\330\004\025\320\0256\260a\260q\330\004\013\2101";
 static const char __pyx_k_config_p[] = "config_p";
 static const char __pyx_k_is_write[] = "is_write";
 static const char __pyx_k_qualname[] = "__qualname__";
 static const char __pyx_k_set_name[] = "__set_name__";
 static const char __pyx_k_AV1_U_1_1[] = "\200\001\360\006\000\005\031\320\030,\250A\250V\2601\330\004\010\210\005\210U\220!\2201\330\010\"\240!\2401";
-static const char __pyx_k_AV1_1E_q_1[] = "\200\001\360\006\000\005\031\320\030,\250A\250V\2601\330\004\027\320\027+\2501\250E\260\021\330\004\025\320\025/\250q\260\010\270\001\330\004\013\2101";
-static const char __pyx_k_AV1_4AXQ_1[] = "\200\001\360\006\000\005\031\320\030,\250A\250V\2601\330\004\025\320\0254\260A\260X\270Q\330\004\013\2101";
+static const char __pyx_k_AV1_1E_1_1[] = "\200\001\360\006\000\005\031\320\030,\250A\250V\2601\330\004\027\320\027+\2501\250E\260\021\330\004\025\320\0251\260\021\260(\270!\330\004\013\2101";
 static const char __pyx_k_ValueError[] = "ValueError";
 static const char __pyx_k_config_file[] = "config_file";
 static const char __pyx_k_create_icnt[] = "create_icnt";
@@ -2297,7 +2294,6 @@ static const char __pyx_k_print_activity[] = "print_activity";
 static const char __pyx_k_pybooksim2_cmd[] = "pybooksim2.cmd";
 static const char __pyx_k_1IS_4q_q_77Na_1[] = "\200\001\360\006\000\005\033\320\032;\2701\270I\300S\310\003\3104\310q\330\004\n\210-\220q\230\n\320\"7\3207N\310a\330\004\013\2101";
 static const char __pyx_k_icnt_cycle_step[] = "icnt_cycle_step";
-static const char __pyx_k_icnt_handle_cmd[] = "icnt_handle_cmd";
 static const char __pyx_k_pybooksim2_icnt[] = "pybooksim2.icnt";
 static const char __pyx_k_QhhhV_ffg_q_11H_1[] = "\200\001\360\006\000\005\030\320\027=\270Q\270h\300h\310h\320V\\\320\\f\320fg\330\004\n\210-\220q\230\007\320\0371\3201H\310\001\330\004\013\2101";
 static const char __pyx_k_icnt_dispatch_cmd[] = "icnt_dispatch_cmd";
@@ -2305,12 +2301,11 @@ static const char __pyx_k_pybooksim2_config[] = "pybooksim2.config";
 static const char __pyx_k_q_7_1_AQ_q_77Na_1[] = "\200\001\360\006\000\005 \320\037/\250q\260\013\2707\300!\3001\330\004\032\320\032<\270A\270Q\330\004\n\210-\220q\230\n\320\"7\3207N\310a\330\004\013\2101";
 static const char __pyx_k_asyncio_coroutines[] = "asyncio.coroutines";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
-static const char __pyx_k_check_icnt_node_busy[] = "check_icnt_node_busy";
 static const char __pyx_k_pybooksim2_pybooksim2[] = "pybooksim2.pybooksim2";
-static const char __pyx_k_check_icnt_cmd_handled[] = "check_icnt_cmd_handled";
 static const char __pyx_k_create_config_torus_2d[] = "create_config_torus_2d";
 static const char __pyx_k_check_icnt_cmd_received[] = "check_icnt_cmd_received";
 static const char __pyx_k_create_config_from_file[] = "create_config_from_file";
+static const char __pyx_k_get_expected_cmd_cycles[] = "get_expected_cmd_cycles";
 static const char __pyx_k_pybooksim2_pybooksim2_pyx[] = "pybooksim2/pybooksim2.pyx";
 static const char __pyx_k_create_icnt_cmd_data_packet[] = "create_icnt_cmd_data_packet";
 static const char __pyx_k_C1_axq_3a_G1A_az9I_VW_q_33J_1[] = "\200\001\340\030/\320/C\3001\330\004\032\320\032.\250a\250x\260q\340\004\007\200|\2203\220a\330\010\030\230\001\340\010\030\320\030(\250\001\250\033\260G\2701\270A\330\004\030\320\030.\250a\250z\3209I\310\035\320VW\340\004\n\210-\220q\230\010\320 3\3203J\310!\330\004\013\2101";
@@ -2326,11 +2321,9 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_8create_icnt(CYTHON_UNUSED P
 static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_10create_icnt_cmd_data_packet(CYTHON_UNUSED PyObject *__pyx_self, int __pyx_v_src_id, int __pyx_v_dst_id, int __pyx_v_subnet, int __pyx_v_size, int __pyx_v_is_write, int __pyx_v_is_response); /* proto */
 static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_12create_icnt_cmd_control_packet(CYTHON_UNUSED PyObject *__pyx_self, int __pyx_v_src_id, int __pyx_v_dst_id, int __pyx_v_subnet, int __pyx_v_size, int __pyx_v_is_response); /* proto */
 static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_14check_icnt_cmd_received(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_cmd); /* proto */
-static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_16check_icnt_cmd_handled(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_cmd); /* proto */
-static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_18check_icnt_node_busy(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_icnt, int __pyx_v_node_id); /* proto */
-static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_20icnt_dispatch_cmd(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_icnt, PyObject *__pyx_v_cmd); /* proto */
-static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_22icnt_handle_cmd(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_icnt, PyObject *__pyx_v_cmd); /* proto */
-static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_24icnt_cycle_step(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_icnt, int __pyx_v_cycles); /* proto */
+static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_16get_expected_cmd_cycles(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_cmd); /* proto */
+static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_18icnt_dispatch_cmd(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_icnt, PyObject *__pyx_v_cmd); /* proto */
+static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_20icnt_cycle_step(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_icnt, int __pyx_v_cycles); /* proto */
 /* #### Code section: late_includes ### */
 /* #### Code section: module_state ### */
 /* SmallCodeConfig */
@@ -2371,8 +2364,8 @@ typedef struct {
   #endif
   PyTypeObject *__pyx_ptype_7cpython_4type_type;
   __Pyx_CachedCFunction __pyx_umethod_PyDict_Type_pop;
-  PyObject *__pyx_codeobj_tab[13];
-  PyObject *__pyx_string_tab[69];
+  PyObject *__pyx_codeobj_tab[11];
+  PyObject *__pyx_string_tab[66];
 /* #### Code section: module_state_contents ### */
 /* CommonTypesMetaclass.module_state_decls */
 PyTypeObject *__pyx_CommonTypesMetaclassType;
@@ -2416,69 +2409,66 @@ static __pyx_mstatetype * const __pyx_mstate_global = &__pyx_mstate_global_stati
 #define __pyx_n_u_ascii __pyx_string_tab[3]
 #define __pyx_n_u_asyncio_coroutines __pyx_string_tab[4]
 #define __pyx_n_u_cap __pyx_string_tab[5]
-#define __pyx_n_u_check_icnt_cmd_handled __pyx_string_tab[6]
-#define __pyx_n_u_check_icnt_cmd_received __pyx_string_tab[7]
-#define __pyx_n_u_check_icnt_node_busy __pyx_string_tab[8]
-#define __pyx_n_u_cline_in_traceback __pyx_string_tab[9]
-#define __pyx_n_u_cmd __pyx_string_tab[10]
-#define __pyx_n_u_cmd_p __pyx_string_tab[11]
-#define __pyx_n_u_config __pyx_string_tab[12]
-#define __pyx_n_u_config_file __pyx_string_tab[13]
-#define __pyx_n_u_config_file_p __pyx_string_tab[14]
-#define __pyx_n_u_config_p __pyx_string_tab[15]
-#define __pyx_n_u_create_config_from_file __pyx_string_tab[16]
-#define __pyx_n_u_create_config_torus_2d __pyx_string_tab[17]
-#define __pyx_n_u_create_icnt __pyx_string_tab[18]
-#define __pyx_n_u_create_icnt_cmd_control_packet __pyx_string_tab[19]
-#define __pyx_n_u_create_icnt_cmd_data_packet __pyx_string_tab[20]
-#define __pyx_n_u_cycles __pyx_string_tab[21]
-#define __pyx_n_u_dst_id __pyx_string_tab[22]
-#define __pyx_n_u_encode __pyx_string_tab[23]
-#define __pyx_n_u_field_b __pyx_string_tab[24]
-#define __pyx_n_u_field_p __pyx_string_tab[25]
-#define __pyx_n_u_flag __pyx_string_tab[26]
-#define __pyx_n_u_fleid __pyx_string_tab[27]
-#define __pyx_n_u_func __pyx_string_tab[28]
-#define __pyx_n_u_get_sim_time __pyx_string_tab[29]
-#define __pyx_n_u_icnt __pyx_string_tab[30]
-#define __pyx_n_u_icnt_cycle_step __pyx_string_tab[31]
-#define __pyx_n_u_icnt_dispatch_cmd __pyx_string_tab[32]
-#define __pyx_n_u_icnt_handle_cmd __pyx_string_tab[33]
-#define __pyx_n_u_icnt_p __pyx_string_tab[34]
-#define __pyx_n_u_is_coroutine __pyx_string_tab[35]
-#define __pyx_n_u_is_response __pyx_string_tab[36]
-#define __pyx_n_u_is_write __pyx_string_tab[37]
-#define __pyx_n_u_main __pyx_string_tab[38]
-#define __pyx_n_u_module __pyx_string_tab[39]
-#define __pyx_n_u_name __pyx_string_tab[40]
-#define __pyx_n_u_node_id __pyx_string_tab[41]
-#define __pyx_n_u_output_file __pyx_string_tab[42]
-#define __pyx_n_u_output_file_p __pyx_string_tab[43]
-#define __pyx_n_u_pop __pyx_string_tab[44]
-#define __pyx_n_u_print_activity __pyx_string_tab[45]
-#define __pyx_n_u_print_trace __pyx_string_tab[46]
-#define __pyx_kp_b_pybooksim2_cmd __pyx_string_tab[47]
-#define __pyx_kp_b_pybooksim2_config __pyx_string_tab[48]
-#define __pyx_kp_b_pybooksim2_icnt __pyx_string_tab[49]
-#define __pyx_n_u_pybooksim2_pybooksim2 __pyx_string_tab[50]
-#define __pyx_kp_u_pybooksim2_pybooksim2_pyx __pyx_string_tab[51]
-#define __pyx_n_u_qualname __pyx_string_tab[52]
-#define __pyx_n_u_range __pyx_string_tab[53]
-#define __pyx_n_u_set_name __pyx_string_tab[54]
-#define __pyx_n_u_size __pyx_string_tab[55]
-#define __pyx_n_u_src_id __pyx_string_tab[56]
-#define __pyx_n_u_subnet __pyx_string_tab[57]
-#define __pyx_n_u_subnets __pyx_string_tab[58]
-#define __pyx_n_u_test __pyx_string_tab[59]
-#define __pyx_n_u_update_config __pyx_string_tab[60]
-#define __pyx_n_u_value __pyx_string_tab[61]
-#define __pyx_kp_u_value_must_be_int_float_or_str __pyx_string_tab[62]
-#define __pyx_n_u_value_str_b __pyx_string_tab[63]
-#define __pyx_n_u_value_str_p __pyx_string_tab[64]
-#define __pyx_n_u_x __pyx_string_tab[65]
-#define __pyx_n_u_xr __pyx_string_tab[66]
-#define __pyx_n_u_y __pyx_string_tab[67]
-#define __pyx_n_u_yr __pyx_string_tab[68]
+#define __pyx_n_u_check_icnt_cmd_received __pyx_string_tab[6]
+#define __pyx_n_u_cline_in_traceback __pyx_string_tab[7]
+#define __pyx_n_u_cmd __pyx_string_tab[8]
+#define __pyx_n_u_cmd_p __pyx_string_tab[9]
+#define __pyx_n_u_config __pyx_string_tab[10]
+#define __pyx_n_u_config_file __pyx_string_tab[11]
+#define __pyx_n_u_config_file_p __pyx_string_tab[12]
+#define __pyx_n_u_config_p __pyx_string_tab[13]
+#define __pyx_n_u_create_config_from_file __pyx_string_tab[14]
+#define __pyx_n_u_create_config_torus_2d __pyx_string_tab[15]
+#define __pyx_n_u_create_icnt __pyx_string_tab[16]
+#define __pyx_n_u_create_icnt_cmd_control_packet __pyx_string_tab[17]
+#define __pyx_n_u_create_icnt_cmd_data_packet __pyx_string_tab[18]
+#define __pyx_n_u_cycles __pyx_string_tab[19]
+#define __pyx_n_u_dst_id __pyx_string_tab[20]
+#define __pyx_n_u_encode __pyx_string_tab[21]
+#define __pyx_n_u_field_b __pyx_string_tab[22]
+#define __pyx_n_u_field_p __pyx_string_tab[23]
+#define __pyx_n_u_flag __pyx_string_tab[24]
+#define __pyx_n_u_fleid __pyx_string_tab[25]
+#define __pyx_n_u_func __pyx_string_tab[26]
+#define __pyx_n_u_get_expected_cmd_cycles __pyx_string_tab[27]
+#define __pyx_n_u_get_sim_time __pyx_string_tab[28]
+#define __pyx_n_u_icnt __pyx_string_tab[29]
+#define __pyx_n_u_icnt_cycle_step __pyx_string_tab[30]
+#define __pyx_n_u_icnt_dispatch_cmd __pyx_string_tab[31]
+#define __pyx_n_u_icnt_p __pyx_string_tab[32]
+#define __pyx_n_u_is_coroutine __pyx_string_tab[33]
+#define __pyx_n_u_is_response __pyx_string_tab[34]
+#define __pyx_n_u_is_write __pyx_string_tab[35]
+#define __pyx_n_u_main __pyx_string_tab[36]
+#define __pyx_n_u_module __pyx_string_tab[37]
+#define __pyx_n_u_name __pyx_string_tab[38]
+#define __pyx_n_u_output_file __pyx_string_tab[39]
+#define __pyx_n_u_output_file_p __pyx_string_tab[40]
+#define __pyx_n_u_pop __pyx_string_tab[41]
+#define __pyx_n_u_print_activity __pyx_string_tab[42]
+#define __pyx_n_u_print_trace __pyx_string_tab[43]
+#define __pyx_kp_b_pybooksim2_cmd __pyx_string_tab[44]
+#define __pyx_kp_b_pybooksim2_config __pyx_string_tab[45]
+#define __pyx_kp_b_pybooksim2_icnt __pyx_string_tab[46]
+#define __pyx_n_u_pybooksim2_pybooksim2 __pyx_string_tab[47]
+#define __pyx_kp_u_pybooksim2_pybooksim2_pyx __pyx_string_tab[48]
+#define __pyx_n_u_qualname __pyx_string_tab[49]
+#define __pyx_n_u_range __pyx_string_tab[50]
+#define __pyx_n_u_set_name __pyx_string_tab[51]
+#define __pyx_n_u_size __pyx_string_tab[52]
+#define __pyx_n_u_src_id __pyx_string_tab[53]
+#define __pyx_n_u_subnet __pyx_string_tab[54]
+#define __pyx_n_u_subnets __pyx_string_tab[55]
+#define __pyx_n_u_test __pyx_string_tab[56]
+#define __pyx_n_u_update_config __pyx_string_tab[57]
+#define __pyx_n_u_value __pyx_string_tab[58]
+#define __pyx_kp_u_value_must_be_int_float_or_str __pyx_string_tab[59]
+#define __pyx_n_u_value_str_b __pyx_string_tab[60]
+#define __pyx_n_u_value_str_p __pyx_string_tab[61]
+#define __pyx_n_u_x __pyx_string_tab[62]
+#define __pyx_n_u_xr __pyx_string_tab[63]
+#define __pyx_n_u_y __pyx_string_tab[64]
+#define __pyx_n_u_yr __pyx_string_tab[65]
 /* #### Code section: module_state_clear ### */
 #if CYTHON_USE_MODULE_STATE
 static CYTHON_SMALL_CODE int __pyx_m_clear(PyObject *m) {
@@ -2500,8 +2490,8 @@ static CYTHON_SMALL_CODE int __pyx_m_clear(PyObject *m) {
   __Pyx_State_RemoveModule(NULL);
   #endif
   Py_CLEAR(clear_module_state->__pyx_ptype_7cpython_4type_type);
-  for (int i=0; i<13; ++i) { Py_CLEAR(clear_module_state->__pyx_codeobj_tab[i]); }
-  for (int i=0; i<69; ++i) { Py_CLEAR(clear_module_state->__pyx_string_tab[i]); }
+  for (int i=0; i<11; ++i) { Py_CLEAR(clear_module_state->__pyx_codeobj_tab[i]); }
+  for (int i=0; i<66; ++i) { Py_CLEAR(clear_module_state->__pyx_string_tab[i]); }
   return 0;
 }
 #endif
@@ -2523,14 +2513,14 @@ static CYTHON_SMALL_CODE int __pyx_m_traverse(PyObject *m, visitproc visit, void
   Py_VISIT(traverse_module_state->__pyx_FusedFunctionType);
   #endif
   Py_VISIT(traverse_module_state->__pyx_ptype_7cpython_4type_type);
-  for (int i=0; i<13; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_codeobj_tab[i]); }
-  for (int i=0; i<69; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_string_tab[i]); }
+  for (int i=0; i<11; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_codeobj_tab[i]); }
+  for (int i=0; i<66; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_string_tab[i]); }
   return 0;
 }
 #endif
 /* #### Code section: module_code ### */
 
-/* "pybooksim2/pybooksim2.pyx":32
+/* "pybooksim2/pybooksim2.pyx":33
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -2563,7 +2553,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_get_sim_time(CYTHON_UNUSED P
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_sim_time", 0);
 
-  /* "pybooksim2/pybooksim2.pyx":35
+  /* "pybooksim2/pybooksim2.pyx":36
  * @cython.wraparound(False)
  * def get_sim_time():
  *     return GetSimTime()             # <<<<<<<<<<<<<<
@@ -2571,13 +2561,13 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_get_sim_time(CYTHON_UNUSED P
  * 
 */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyLong_From_int(GetSimTime()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 35, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyLong_From_int(GetSimTime()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pybooksim2/pybooksim2.pyx":32
+  /* "pybooksim2/pybooksim2.pyx":33
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -2596,7 +2586,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_get_sim_time(CYTHON_UNUSED P
   return __pyx_r;
 }
 
-/* "pybooksim2/pybooksim2.pyx":42
+/* "pybooksim2/pybooksim2.pyx":43
  * cdef bytes CMD_CAPSULE_NAME    = b"pybooksim2.cmd"
  * 
  * cdef void icnt_capsule_destructor(capsule) except *:             # <<<<<<<<<<<<<<
@@ -2613,7 +2603,7 @@ static void __pyx_f_10pybooksim2_10pybooksim2_icnt_capsule_destructor(PyObject *
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":43
+  /* "pybooksim2/pybooksim2.pyx":44
  * 
  * cdef void icnt_capsule_destructor(capsule) except *:
  *     cdef void* p = PyCapsule_GetPointer(capsule, ICNT_CAPSULE_NAME)             # <<<<<<<<<<<<<<
@@ -2622,13 +2612,13 @@ static void __pyx_f_10pybooksim2_10pybooksim2_icnt_capsule_destructor(PyObject *
 */
   if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 43, __pyx_L1_error)
+    __PYX_ERR(0, 44, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 43, __pyx_L1_error)
-  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_capsule, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 43, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 44, __pyx_L1_error)
+  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_capsule, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 44, __pyx_L1_error)
   __pyx_v_p = __pyx_t_2;
 
-  /* "pybooksim2/pybooksim2.pyx":44
+  /* "pybooksim2/pybooksim2.pyx":45
  * cdef void icnt_capsule_destructor(capsule) except *:
  *     cdef void* p = PyCapsule_GetPointer(capsule, ICNT_CAPSULE_NAME)
  *     if p != NULL:             # <<<<<<<<<<<<<<
@@ -2638,7 +2628,7 @@ static void __pyx_f_10pybooksim2_10pybooksim2_icnt_capsule_destructor(PyObject *
   __pyx_t_3 = (__pyx_v_p != NULL);
   if (__pyx_t_3) {
 
-    /* "pybooksim2/pybooksim2.pyx":45
+    /* "pybooksim2/pybooksim2.pyx":46
  *     cdef void* p = PyCapsule_GetPointer(capsule, ICNT_CAPSULE_NAME)
  *     if p != NULL:
  *         pybooksim2_destroy_icnt(p)             # <<<<<<<<<<<<<<
@@ -2647,7 +2637,7 @@ static void __pyx_f_10pybooksim2_10pybooksim2_icnt_capsule_destructor(PyObject *
 */
     pybooksim2_destroy_icnt(__pyx_v_p);
 
-    /* "pybooksim2/pybooksim2.pyx":44
+    /* "pybooksim2/pybooksim2.pyx":45
  * cdef void icnt_capsule_destructor(capsule) except *:
  *     cdef void* p = PyCapsule_GetPointer(capsule, ICNT_CAPSULE_NAME)
  *     if p != NULL:             # <<<<<<<<<<<<<<
@@ -2656,7 +2646,7 @@ static void __pyx_f_10pybooksim2_10pybooksim2_icnt_capsule_destructor(PyObject *
 */
   }
 
-  /* "pybooksim2/pybooksim2.pyx":42
+  /* "pybooksim2/pybooksim2.pyx":43
  * cdef bytes CMD_CAPSULE_NAME    = b"pybooksim2.cmd"
  * 
  * cdef void icnt_capsule_destructor(capsule) except *:             # <<<<<<<<<<<<<<
@@ -2671,7 +2661,7 @@ static void __pyx_f_10pybooksim2_10pybooksim2_icnt_capsule_destructor(PyObject *
   __pyx_L0:;
 }
 
-/* "pybooksim2/pybooksim2.pyx":47
+/* "pybooksim2/pybooksim2.pyx":48
  *         pybooksim2_destroy_icnt(p)
  * 
  * cdef void config_capsule_destructor(capsule) except *:             # <<<<<<<<<<<<<<
@@ -2688,7 +2678,7 @@ static void __pyx_f_10pybooksim2_10pybooksim2_config_capsule_destructor(PyObject
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":48
+  /* "pybooksim2/pybooksim2.pyx":49
  * 
  * cdef void config_capsule_destructor(capsule) except *:
  *     cdef void* p = PyCapsule_GetPointer(capsule, CONFIG_CAPSULE_NAME)             # <<<<<<<<<<<<<<
@@ -2697,13 +2687,13 @@ static void __pyx_f_10pybooksim2_10pybooksim2_config_capsule_destructor(PyObject
 */
   if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_CONFIG_CAPSULE_NAME == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 48, __pyx_L1_error)
+    __PYX_ERR(0, 49, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CONFIG_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 48, __pyx_L1_error)
-  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_capsule, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 48, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CONFIG_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 49, __pyx_L1_error)
+  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_capsule, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 49, __pyx_L1_error)
   __pyx_v_p = __pyx_t_2;
 
-  /* "pybooksim2/pybooksim2.pyx":49
+  /* "pybooksim2/pybooksim2.pyx":50
  * cdef void config_capsule_destructor(capsule) except *:
  *     cdef void* p = PyCapsule_GetPointer(capsule, CONFIG_CAPSULE_NAME)
  *     if p != NULL:             # <<<<<<<<<<<<<<
@@ -2713,7 +2703,7 @@ static void __pyx_f_10pybooksim2_10pybooksim2_config_capsule_destructor(PyObject
   __pyx_t_3 = (__pyx_v_p != NULL);
   if (__pyx_t_3) {
 
-    /* "pybooksim2/pybooksim2.pyx":50
+    /* "pybooksim2/pybooksim2.pyx":51
  *     cdef void* p = PyCapsule_GetPointer(capsule, CONFIG_CAPSULE_NAME)
  *     if p != NULL:
  *         pybooksim2_destroy_config(p)             # <<<<<<<<<<<<<<
@@ -2722,7 +2712,7 @@ static void __pyx_f_10pybooksim2_10pybooksim2_config_capsule_destructor(PyObject
 */
     pybooksim2_destroy_config(__pyx_v_p);
 
-    /* "pybooksim2/pybooksim2.pyx":49
+    /* "pybooksim2/pybooksim2.pyx":50
  * cdef void config_capsule_destructor(capsule) except *:
  *     cdef void* p = PyCapsule_GetPointer(capsule, CONFIG_CAPSULE_NAME)
  *     if p != NULL:             # <<<<<<<<<<<<<<
@@ -2731,7 +2721,7 @@ static void __pyx_f_10pybooksim2_10pybooksim2_config_capsule_destructor(PyObject
 */
   }
 
-  /* "pybooksim2/pybooksim2.pyx":47
+  /* "pybooksim2/pybooksim2.pyx":48
  *         pybooksim2_destroy_icnt(p)
  * 
  * cdef void config_capsule_destructor(capsule) except *:             # <<<<<<<<<<<<<<
@@ -2746,7 +2736,7 @@ static void __pyx_f_10pybooksim2_10pybooksim2_config_capsule_destructor(PyObject
   __pyx_L0:;
 }
 
-/* "pybooksim2/pybooksim2.pyx":52
+/* "pybooksim2/pybooksim2.pyx":53
  *         pybooksim2_destroy_config(p)
  * 
  * cdef void cmd_capsule_destructor(capsule) except *:             # <<<<<<<<<<<<<<
@@ -2763,7 +2753,7 @@ static void __pyx_f_10pybooksim2_10pybooksim2_cmd_capsule_destructor(PyObject *_
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":53
+  /* "pybooksim2/pybooksim2.pyx":54
  * 
  * cdef void cmd_capsule_destructor(capsule) except *:
  *     cdef void* p = PyCapsule_GetPointer(capsule, CMD_CAPSULE_NAME)             # <<<<<<<<<<<<<<
@@ -2772,13 +2762,13 @@ static void __pyx_f_10pybooksim2_10pybooksim2_cmd_capsule_destructor(PyObject *_
 */
   if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 53, __pyx_L1_error)
+    __PYX_ERR(0, 54, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 53, __pyx_L1_error)
-  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_capsule, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 53, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 54, __pyx_L1_error)
+  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_capsule, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 54, __pyx_L1_error)
   __pyx_v_p = __pyx_t_2;
 
-  /* "pybooksim2/pybooksim2.pyx":54
+  /* "pybooksim2/pybooksim2.pyx":55
  * cdef void cmd_capsule_destructor(capsule) except *:
  *     cdef void* p = PyCapsule_GetPointer(capsule, CMD_CAPSULE_NAME)
  *     if p != NULL:             # <<<<<<<<<<<<<<
@@ -2788,7 +2778,7 @@ static void __pyx_f_10pybooksim2_10pybooksim2_cmd_capsule_destructor(PyObject *_
   __pyx_t_3 = (__pyx_v_p != NULL);
   if (__pyx_t_3) {
 
-    /* "pybooksim2/pybooksim2.pyx":55
+    /* "pybooksim2/pybooksim2.pyx":56
  *     cdef void* p = PyCapsule_GetPointer(capsule, CMD_CAPSULE_NAME)
  *     if p != NULL:
  *         pybooksim2_destroy_icnt_cmd(p)             # <<<<<<<<<<<<<<
@@ -2797,7 +2787,7 @@ static void __pyx_f_10pybooksim2_10pybooksim2_cmd_capsule_destructor(PyObject *_
 */
     pybooksim2_destroy_icnt_cmd(__pyx_v_p);
 
-    /* "pybooksim2/pybooksim2.pyx":54
+    /* "pybooksim2/pybooksim2.pyx":55
  * cdef void cmd_capsule_destructor(capsule) except *:
  *     cdef void* p = PyCapsule_GetPointer(capsule, CMD_CAPSULE_NAME)
  *     if p != NULL:             # <<<<<<<<<<<<<<
@@ -2806,7 +2796,7 @@ static void __pyx_f_10pybooksim2_10pybooksim2_cmd_capsule_destructor(PyObject *_
 */
   }
 
-  /* "pybooksim2/pybooksim2.pyx":52
+  /* "pybooksim2/pybooksim2.pyx":53
  *         pybooksim2_destroy_config(p)
  * 
  * cdef void cmd_capsule_destructor(capsule) except *:             # <<<<<<<<<<<<<<
@@ -2821,7 +2811,7 @@ static void __pyx_f_10pybooksim2_10pybooksim2_cmd_capsule_destructor(PyObject *_
   __pyx_L0:;
 }
 
-/* "pybooksim2/pybooksim2.pyx":58
+/* "pybooksim2/pybooksim2.pyx":59
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -2868,32 +2858,32 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_config_file,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 58, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 59, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 58, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 59, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "create_config_from_file", 0) < 0) __PYX_ERR(0, 58, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "create_config_from_file", 0) < 0) __PYX_ERR(0, 59, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 1; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("create_config_from_file", 1, 1, 1, i); __PYX_ERR(0, 58, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("create_config_from_file", 1, 1, 1, i); __PYX_ERR(0, 59, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 1)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 58, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 59, __pyx_L3_error)
     }
     __pyx_v_config_file = values[0];
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("create_config_from_file", 1, 1, 1, __pyx_nargs); __PYX_ERR(0, 58, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("create_config_from_file", 1, 1, 1, __pyx_nargs); __PYX_ERR(0, 59, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -2930,7 +2920,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_2create_config_from_file(CYT
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("create_config_from_file", 0);
 
-  /* "pybooksim2/pybooksim2.pyx":61
+  /* "pybooksim2/pybooksim2.pyx":62
  * @cython.wraparound(False)
  * def create_config_from_file(config_file):
  *     cdef char *config_file_p = PyBytes_AsString(config_file.encode("ascii"))             # <<<<<<<<<<<<<<
@@ -2944,14 +2934,14 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_2create_config_from_file(CYT
     PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_mstate_global->__pyx_n_u_ascii};
     __pyx_t_1 = __Pyx_PyObject_FastCallMethod(__pyx_mstate_global->__pyx_n_u_encode, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 61, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 62, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
   }
-  __pyx_t_4 = PyBytes_AsString(__pyx_t_1); if (unlikely(__pyx_t_4 == ((char *)0))) __PYX_ERR(0, 61, __pyx_L1_error)
+  __pyx_t_4 = PyBytes_AsString(__pyx_t_1); if (unlikely(__pyx_t_4 == ((char *)0))) __PYX_ERR(0, 62, __pyx_L1_error)
   __pyx_v_config_file_p = __pyx_t_4;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":62
+  /* "pybooksim2/pybooksim2.pyx":63
  * def create_config_from_file(config_file):
  *     cdef char *config_file_p = PyBytes_AsString(config_file.encode("ascii"))
  *     cdef void *config_p = pybooksim2_create_config_from_file(config_file_p)             # <<<<<<<<<<<<<<
@@ -2960,7 +2950,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_2create_config_from_file(CYT
 */
   __pyx_v_config_p = pybooksim2_create_config_from_file(__pyx_v_config_file_p);
 
-  /* "pybooksim2/pybooksim2.pyx":63
+  /* "pybooksim2/pybooksim2.pyx":64
  *     cdef char *config_file_p = PyBytes_AsString(config_file.encode("ascii"))
  *     cdef void *config_p = pybooksim2_create_config_from_file(config_file_p)
  *     cap = PyCapsule_New(config_p, CONFIG_CAPSULE_NAME, <PyCapsule_Destructor> config_capsule_destructor)             # <<<<<<<<<<<<<<
@@ -2969,15 +2959,15 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_2create_config_from_file(CYT
 */
   if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_CONFIG_CAPSULE_NAME == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 63, __pyx_L1_error)
+    __PYX_ERR(0, 64, __pyx_L1_error)
   }
-  __pyx_t_5 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CONFIG_CAPSULE_NAME); if (unlikely((!__pyx_t_5) && PyErr_Occurred())) __PYX_ERR(0, 63, __pyx_L1_error)
-  __pyx_t_1 = PyCapsule_New(__pyx_v_config_p, __pyx_t_5, ((PyCapsule_Destructor)__pyx_f_10pybooksim2_10pybooksim2_config_capsule_destructor)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 63, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CONFIG_CAPSULE_NAME); if (unlikely((!__pyx_t_5) && PyErr_Occurred())) __PYX_ERR(0, 64, __pyx_L1_error)
+  __pyx_t_1 = PyCapsule_New(__pyx_v_config_p, __pyx_t_5, ((PyCapsule_Destructor)__pyx_f_10pybooksim2_10pybooksim2_config_capsule_destructor)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 64, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_cap = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":64
+  /* "pybooksim2/pybooksim2.pyx":65
  *     cdef void *config_p = pybooksim2_create_config_from_file(config_file_p)
  *     cap = PyCapsule_New(config_p, CONFIG_CAPSULE_NAME, <PyCapsule_Destructor> config_capsule_destructor)
  *     return cap             # <<<<<<<<<<<<<<
@@ -2989,7 +2979,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_2create_config_from_file(CYT
   __pyx_r = __pyx_v_cap;
   goto __pyx_L0;
 
-  /* "pybooksim2/pybooksim2.pyx":58
+  /* "pybooksim2/pybooksim2.pyx":59
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -3010,7 +3000,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_2create_config_from_file(CYT
   return __pyx_r;
 }
 
-/* "pybooksim2/pybooksim2.pyx":66
+/* "pybooksim2/pybooksim2.pyx":67
  *     return cap
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -3061,60 +3051,60 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_subnets,&__pyx_mstate_global->__pyx_n_u_x,&__pyx_mstate_global->__pyx_n_u_y,&__pyx_mstate_global->__pyx_n_u_xr,&__pyx_mstate_global->__pyx_n_u_yr,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 66, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 67, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 66, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 67, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 66, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 67, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 66, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 67, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 66, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 67, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 66, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 67, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "create_config_torus_2d", 0) < 0) __PYX_ERR(0, 66, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "create_config_torus_2d", 0) < 0) __PYX_ERR(0, 67, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 5; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("create_config_torus_2d", 1, 5, 5, i); __PYX_ERR(0, 66, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("create_config_torus_2d", 1, 5, 5, i); __PYX_ERR(0, 67, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 5)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 66, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 67, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 66, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 67, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 66, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 67, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 66, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 67, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 66, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 67, __pyx_L3_error)
     }
-    __pyx_v_subnets = __Pyx_PyLong_As_int(values[0]); if (unlikely((__pyx_v_subnets == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 68, __pyx_L3_error)
-    __pyx_v_x = __Pyx_PyLong_As_int(values[1]); if (unlikely((__pyx_v_x == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 68, __pyx_L3_error)
-    __pyx_v_y = __Pyx_PyLong_As_int(values[2]); if (unlikely((__pyx_v_y == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 68, __pyx_L3_error)
-    __pyx_v_xr = __Pyx_PyLong_As_int(values[3]); if (unlikely((__pyx_v_xr == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 68, __pyx_L3_error)
-    __pyx_v_yr = __Pyx_PyLong_As_int(values[4]); if (unlikely((__pyx_v_yr == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 68, __pyx_L3_error)
+    __pyx_v_subnets = __Pyx_PyLong_As_int(values[0]); if (unlikely((__pyx_v_subnets == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 69, __pyx_L3_error)
+    __pyx_v_x = __Pyx_PyLong_As_int(values[1]); if (unlikely((__pyx_v_x == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 69, __pyx_L3_error)
+    __pyx_v_y = __Pyx_PyLong_As_int(values[2]); if (unlikely((__pyx_v_y == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 69, __pyx_L3_error)
+    __pyx_v_xr = __Pyx_PyLong_As_int(values[3]); if (unlikely((__pyx_v_xr == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 69, __pyx_L3_error)
+    __pyx_v_yr = __Pyx_PyLong_As_int(values[4]); if (unlikely((__pyx_v_yr == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 69, __pyx_L3_error)
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("create_config_torus_2d", 1, 5, 5, __pyx_nargs); __PYX_ERR(0, 66, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("create_config_torus_2d", 1, 5, 5, __pyx_nargs); __PYX_ERR(0, 67, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -3147,7 +3137,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_4create_config_torus_2d(CYTH
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("create_config_torus_2d", 0);
 
-  /* "pybooksim2/pybooksim2.pyx":69
+  /* "pybooksim2/pybooksim2.pyx":70
  * @cython.wraparound(False)
  * def create_config_torus_2d(int subnets, int x, int y, int xr, int yr):
  *     cdef void *config_p = pybooksim2_create_config_torus_2d(subnets, x, y, xr, yr)             # <<<<<<<<<<<<<<
@@ -3156,7 +3146,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_4create_config_torus_2d(CYTH
 */
   __pyx_v_config_p = pybooksim2_create_config_torus_2d(__pyx_v_subnets, __pyx_v_x, __pyx_v_y, __pyx_v_xr, __pyx_v_yr);
 
-  /* "pybooksim2/pybooksim2.pyx":70
+  /* "pybooksim2/pybooksim2.pyx":71
  * def create_config_torus_2d(int subnets, int x, int y, int xr, int yr):
  *     cdef void *config_p = pybooksim2_create_config_torus_2d(subnets, x, y, xr, yr)
  *     cap = PyCapsule_New(config_p, CONFIG_CAPSULE_NAME, <PyCapsule_Destructor> config_capsule_destructor)             # <<<<<<<<<<<<<<
@@ -3165,15 +3155,15 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_4create_config_torus_2d(CYTH
 */
   if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_CONFIG_CAPSULE_NAME == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 70, __pyx_L1_error)
+    __PYX_ERR(0, 71, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CONFIG_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 70, __pyx_L1_error)
-  __pyx_t_2 = PyCapsule_New(__pyx_v_config_p, __pyx_t_1, ((PyCapsule_Destructor)__pyx_f_10pybooksim2_10pybooksim2_config_capsule_destructor)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 70, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CONFIG_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 71, __pyx_L1_error)
+  __pyx_t_2 = PyCapsule_New(__pyx_v_config_p, __pyx_t_1, ((PyCapsule_Destructor)__pyx_f_10pybooksim2_10pybooksim2_config_capsule_destructor)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_v_cap = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":71
+  /* "pybooksim2/pybooksim2.pyx":72
  *     cdef void *config_p = pybooksim2_create_config_torus_2d(subnets, x, y, xr, yr)
  *     cap = PyCapsule_New(config_p, CONFIG_CAPSULE_NAME, <PyCapsule_Destructor> config_capsule_destructor)
  *     return cap             # <<<<<<<<<<<<<<
@@ -3185,7 +3175,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_4create_config_torus_2d(CYTH
   __pyx_r = __pyx_v_cap;
   goto __pyx_L0;
 
-  /* "pybooksim2/pybooksim2.pyx":66
+  /* "pybooksim2/pybooksim2.pyx":67
  *     return cap
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -3205,7 +3195,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_4create_config_torus_2d(CYTH
   return __pyx_r;
 }
 
-/* "pybooksim2/pybooksim2.pyx":73
+/* "pybooksim2/pybooksim2.pyx":74
  *     return cap
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -3254,38 +3244,38 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_config,&__pyx_mstate_global->__pyx_n_u_fleid,&__pyx_mstate_global->__pyx_n_u_value,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 73, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 74, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 73, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 74, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 73, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 74, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 73, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 74, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "update_config", 0) < 0) __PYX_ERR(0, 73, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "update_config", 0) < 0) __PYX_ERR(0, 74, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 3; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("update_config", 1, 3, 3, i); __PYX_ERR(0, 73, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("update_config", 1, 3, 3, i); __PYX_ERR(0, 74, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 3)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 73, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 74, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 73, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 74, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 73, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 74, __pyx_L3_error)
     }
     __pyx_v_config = values[0];
     __pyx_v_fleid = values[1];
@@ -3293,7 +3283,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("update_config", 1, 3, 3, __pyx_nargs); __PYX_ERR(0, 73, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("update_config", 1, 3, 3, __pyx_nargs); __PYX_ERR(0, 74, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -3337,7 +3327,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_6update_config(CYTHON_UNUSED
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("update_config", 0);
 
-  /* "pybooksim2/pybooksim2.pyx":76
+  /* "pybooksim2/pybooksim2.pyx":77
  * @cython.wraparound(False)
  * def update_config(config, fleid, value):
  *     cdef void *config_p = PyCapsule_GetPointer(config, CONFIG_CAPSULE_NAME)             # <<<<<<<<<<<<<<
@@ -3346,13 +3336,13 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_6update_config(CYTHON_UNUSED
 */
   if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_CONFIG_CAPSULE_NAME == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 76, __pyx_L1_error)
+    __PYX_ERR(0, 77, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CONFIG_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 76, __pyx_L1_error)
-  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_config, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 76, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CONFIG_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 77, __pyx_L1_error)
+  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_config, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 77, __pyx_L1_error)
   __pyx_v_config_p = __pyx_t_2;
 
-  /* "pybooksim2/pybooksim2.pyx":77
+  /* "pybooksim2/pybooksim2.pyx":78
  * def update_config(config, fleid, value):
  *     cdef void *config_p = PyCapsule_GetPointer(config, CONFIG_CAPSULE_NAME)
  *     cdef bytes field_b = fleid.encode("ascii")             # <<<<<<<<<<<<<<
@@ -3366,24 +3356,24 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_6update_config(CYTHON_UNUSED
     PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_mstate_global->__pyx_n_u_ascii};
     __pyx_t_3 = __Pyx_PyObject_FastCallMethod(__pyx_mstate_global->__pyx_n_u_encode, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 77, __pyx_L1_error)
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 78, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
   }
-  if (!(likely(PyBytes_CheckExact(__pyx_t_3))||((__pyx_t_3) == Py_None) || __Pyx_RaiseUnexpectedTypeError("bytes", __pyx_t_3))) __PYX_ERR(0, 77, __pyx_L1_error)
+  if (!(likely(PyBytes_CheckExact(__pyx_t_3))||((__pyx_t_3) == Py_None) || __Pyx_RaiseUnexpectedTypeError("bytes", __pyx_t_3))) __PYX_ERR(0, 78, __pyx_L1_error)
   __pyx_v_field_b = ((PyObject*)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":78
+  /* "pybooksim2/pybooksim2.pyx":79
  *     cdef void *config_p = PyCapsule_GetPointer(config, CONFIG_CAPSULE_NAME)
  *     cdef bytes field_b = fleid.encode("ascii")
  *     cdef char *field_p = PyBytes_AsString(field_b)             # <<<<<<<<<<<<<<
  *     cdef bytes value_str_b
  *     cdef char *value_str_p
 */
-  __pyx_t_6 = PyBytes_AsString(__pyx_v_field_b); if (unlikely(__pyx_t_6 == ((char *)0))) __PYX_ERR(0, 78, __pyx_L1_error)
+  __pyx_t_6 = PyBytes_AsString(__pyx_v_field_b); if (unlikely(__pyx_t_6 == ((char *)0))) __PYX_ERR(0, 79, __pyx_L1_error)
   __pyx_v_field_p = __pyx_t_6;
 
-  /* "pybooksim2/pybooksim2.pyx":82
+  /* "pybooksim2/pybooksim2.pyx":83
  *     cdef char *value_str_p
  * 
  *     if isinstance(value, int):             # <<<<<<<<<<<<<<
@@ -3393,17 +3383,17 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_6update_config(CYTHON_UNUSED
   __pyx_t_7 = PyLong_Check(__pyx_v_value); 
   if (__pyx_t_7) {
 
-    /* "pybooksim2/pybooksim2.pyx":83
+    /* "pybooksim2/pybooksim2.pyx":84
  * 
  *     if isinstance(value, int):
  *         pybooksim2_update_config_int(config_p, field_p, value)             # <<<<<<<<<<<<<<
  *     elif isinstance(value, float):
  *         pybooksim2_update_config_double(config_p, field_p, value)
 */
-    __pyx_t_8 = __Pyx_PyLong_As_int(__pyx_v_value); if (unlikely((__pyx_t_8 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 83, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyLong_As_int(__pyx_v_value); if (unlikely((__pyx_t_8 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 84, __pyx_L1_error)
     pybooksim2_update_config_int(__pyx_v_config_p, __pyx_v_field_p, __pyx_t_8);
 
-    /* "pybooksim2/pybooksim2.pyx":82
+    /* "pybooksim2/pybooksim2.pyx":83
  *     cdef char *value_str_p
  * 
  *     if isinstance(value, int):             # <<<<<<<<<<<<<<
@@ -3413,7 +3403,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_6update_config(CYTHON_UNUSED
     goto __pyx_L3;
   }
 
-  /* "pybooksim2/pybooksim2.pyx":84
+  /* "pybooksim2/pybooksim2.pyx":85
  *     if isinstance(value, int):
  *         pybooksim2_update_config_int(config_p, field_p, value)
  *     elif isinstance(value, float):             # <<<<<<<<<<<<<<
@@ -3423,17 +3413,17 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_6update_config(CYTHON_UNUSED
   __pyx_t_7 = PyFloat_Check(__pyx_v_value); 
   if (__pyx_t_7) {
 
-    /* "pybooksim2/pybooksim2.pyx":85
+    /* "pybooksim2/pybooksim2.pyx":86
  *         pybooksim2_update_config_int(config_p, field_p, value)
  *     elif isinstance(value, float):
  *         pybooksim2_update_config_double(config_p, field_p, value)             # <<<<<<<<<<<<<<
  *     elif isinstance(value, str):
  *         value_str_b = value.encode("ascii")
 */
-    __pyx_t_9 = __Pyx_PyFloat_AsDouble(__pyx_v_value); if (unlikely((__pyx_t_9 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 85, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyFloat_AsDouble(__pyx_v_value); if (unlikely((__pyx_t_9 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 86, __pyx_L1_error)
     pybooksim2_update_config_double(__pyx_v_config_p, __pyx_v_field_p, __pyx_t_9);
 
-    /* "pybooksim2/pybooksim2.pyx":84
+    /* "pybooksim2/pybooksim2.pyx":85
  *     if isinstance(value, int):
  *         pybooksim2_update_config_int(config_p, field_p, value)
  *     elif isinstance(value, float):             # <<<<<<<<<<<<<<
@@ -3443,7 +3433,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_6update_config(CYTHON_UNUSED
     goto __pyx_L3;
   }
 
-  /* "pybooksim2/pybooksim2.pyx":86
+  /* "pybooksim2/pybooksim2.pyx":87
  *     elif isinstance(value, float):
  *         pybooksim2_update_config_double(config_p, field_p, value)
  *     elif isinstance(value, str):             # <<<<<<<<<<<<<<
@@ -3453,7 +3443,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_6update_config(CYTHON_UNUSED
   __pyx_t_7 = PyUnicode_Check(__pyx_v_value); 
   if (likely(__pyx_t_7)) {
 
-    /* "pybooksim2/pybooksim2.pyx":87
+    /* "pybooksim2/pybooksim2.pyx":88
  *         pybooksim2_update_config_double(config_p, field_p, value)
  *     elif isinstance(value, str):
  *         value_str_b = value.encode("ascii")             # <<<<<<<<<<<<<<
@@ -3467,24 +3457,24 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_6update_config(CYTHON_UNUSED
       PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_mstate_global->__pyx_n_u_ascii};
       __pyx_t_3 = __Pyx_PyObject_FastCallMethod(__pyx_mstate_global->__pyx_n_u_encode, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 87, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
     }
-    if (!(likely(PyBytes_CheckExact(__pyx_t_3))||((__pyx_t_3) == Py_None) || __Pyx_RaiseUnexpectedTypeError("bytes", __pyx_t_3))) __PYX_ERR(0, 87, __pyx_L1_error)
+    if (!(likely(PyBytes_CheckExact(__pyx_t_3))||((__pyx_t_3) == Py_None) || __Pyx_RaiseUnexpectedTypeError("bytes", __pyx_t_3))) __PYX_ERR(0, 88, __pyx_L1_error)
     __pyx_v_value_str_b = ((PyObject*)__pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "pybooksim2/pybooksim2.pyx":88
+    /* "pybooksim2/pybooksim2.pyx":89
  *     elif isinstance(value, str):
  *         value_str_b = value.encode("ascii")
  *         value_str_p = PyBytes_AsString(value_str_b)             # <<<<<<<<<<<<<<
  *         pybooksim2_update_config_str(config_p, field_p, value_str_p)
  *     else:
 */
-    __pyx_t_6 = PyBytes_AsString(__pyx_v_value_str_b); if (unlikely(__pyx_t_6 == ((char *)0))) __PYX_ERR(0, 88, __pyx_L1_error)
+    __pyx_t_6 = PyBytes_AsString(__pyx_v_value_str_b); if (unlikely(__pyx_t_6 == ((char *)0))) __PYX_ERR(0, 89, __pyx_L1_error)
     __pyx_v_value_str_p = __pyx_t_6;
 
-    /* "pybooksim2/pybooksim2.pyx":89
+    /* "pybooksim2/pybooksim2.pyx":90
  *         value_str_b = value.encode("ascii")
  *         value_str_p = PyBytes_AsString(value_str_b)
  *         pybooksim2_update_config_str(config_p, field_p, value_str_p)             # <<<<<<<<<<<<<<
@@ -3493,7 +3483,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_6update_config(CYTHON_UNUSED
 */
     pybooksim2_update_config_str(__pyx_v_config_p, __pyx_v_field_p, __pyx_v_value_str_p);
 
-    /* "pybooksim2/pybooksim2.pyx":86
+    /* "pybooksim2/pybooksim2.pyx":87
  *     elif isinstance(value, float):
  *         pybooksim2_update_config_double(config_p, field_p, value)
  *     elif isinstance(value, str):             # <<<<<<<<<<<<<<
@@ -3503,7 +3493,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_6update_config(CYTHON_UNUSED
     goto __pyx_L3;
   }
 
-  /* "pybooksim2/pybooksim2.pyx":91
+  /* "pybooksim2/pybooksim2.pyx":92
  *         pybooksim2_update_config_str(config_p, field_p, value_str_p)
  *     else:
  *         raise ValueError("value must be int, float or str")             # <<<<<<<<<<<<<<
@@ -3520,16 +3510,16 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_6update_config(CYTHON_UNUSED
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 91, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 92, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
     }
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_ERR(0, 91, __pyx_L1_error)
+    __PYX_ERR(0, 92, __pyx_L1_error)
   }
   __pyx_L3:;
 
-  /* "pybooksim2/pybooksim2.pyx":73
+  /* "pybooksim2/pybooksim2.pyx":74
  *     return cap
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -3554,7 +3544,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_6update_config(CYTHON_UNUSED
   return __pyx_r;
 }
 
-/* "pybooksim2/pybooksim2.pyx":94
+/* "pybooksim2/pybooksim2.pyx":95
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -3604,32 +3594,32 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_config,&__pyx_mstate_global->__pyx_n_u_print_activity,&__pyx_mstate_global->__pyx_n_u_print_trace,&__pyx_mstate_global->__pyx_n_u_output_file,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 94, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 95, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 94, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 95, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 94, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 95, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 94, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 95, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 94, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 95, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "create_icnt", 0) < 0) __PYX_ERR(0, 94, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "create_icnt", 0) < 0) __PYX_ERR(0, 95, __pyx_L3_error)
 
-      /* "pybooksim2/pybooksim2.pyx":96
+      /* "pybooksim2/pybooksim2.pyx":97
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def create_icnt(config, bint print_activity=0, bint print_trace=0, output_file=None):             # <<<<<<<<<<<<<<
@@ -3638,25 +3628,25 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
 */
       if (!values[3]) values[3] = __Pyx_NewRef(((PyObject *)Py_None));
       for (Py_ssize_t i = __pyx_nargs; i < 1; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("create_icnt", 0, 1, 4, i); __PYX_ERR(0, 94, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("create_icnt", 0, 1, 4, i); __PYX_ERR(0, 95, __pyx_L3_error) }
       }
     } else {
       switch (__pyx_nargs) {
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 94, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 95, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 94, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 95, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 94, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 95, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 94, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 95, __pyx_L3_error)
         break;
         default: goto __pyx_L5_argtuple_error;
       }
@@ -3664,12 +3654,12 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
     }
     __pyx_v_config = values[0];
     if (values[1]) {
-      __pyx_v_print_activity = __Pyx_PyObject_IsTrue(values[1]); if (unlikely((__pyx_v_print_activity == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 96, __pyx_L3_error)
+      __pyx_v_print_activity = __Pyx_PyObject_IsTrue(values[1]); if (unlikely((__pyx_v_print_activity == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 97, __pyx_L3_error)
     } else {
       __pyx_v_print_activity = ((int)((int)0));
     }
     if (values[2]) {
-      __pyx_v_print_trace = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_print_trace == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 96, __pyx_L3_error)
+      __pyx_v_print_trace = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_print_trace == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 97, __pyx_L3_error)
     } else {
       __pyx_v_print_trace = ((int)((int)0));
     }
@@ -3677,7 +3667,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("create_icnt", 0, 1, 4, __pyx_nargs); __PYX_ERR(0, 94, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("create_icnt", 0, 1, 4, __pyx_nargs); __PYX_ERR(0, 95, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -3690,7 +3680,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __pyx_L4_argument_unpacking_done:;
   __pyx_r = __pyx_pf_10pybooksim2_10pybooksim2_8create_icnt(__pyx_self, __pyx_v_config, __pyx_v_print_activity, __pyx_v_print_trace, __pyx_v_output_file);
 
-  /* "pybooksim2/pybooksim2.pyx":94
+  /* "pybooksim2/pybooksim2.pyx":95
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -3726,7 +3716,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_8create_icnt(CYTHON_UNUSED P
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("create_icnt", 0);
 
-  /* "pybooksim2/pybooksim2.pyx":97
+  /* "pybooksim2/pybooksim2.pyx":98
  * @cython.wraparound(False)
  * def create_icnt(config, bint print_activity=0, bint print_trace=0, output_file=None):
  *     cdef void *config_p = PyCapsule_GetPointer(config, CONFIG_CAPSULE_NAME)             # <<<<<<<<<<<<<<
@@ -3735,13 +3725,13 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_8create_icnt(CYTHON_UNUSED P
 */
   if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_CONFIG_CAPSULE_NAME == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 97, __pyx_L1_error)
+    __PYX_ERR(0, 98, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CONFIG_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 97, __pyx_L1_error)
-  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_config, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 97, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CONFIG_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_config, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 98, __pyx_L1_error)
   __pyx_v_config_p = __pyx_t_2;
 
-  /* "pybooksim2/pybooksim2.pyx":99
+  /* "pybooksim2/pybooksim2.pyx":100
  *     cdef void *config_p = PyCapsule_GetPointer(config, CONFIG_CAPSULE_NAME)
  *     cdef char *output_file_p
  *     if output_file is None:             # <<<<<<<<<<<<<<
@@ -3751,7 +3741,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_8create_icnt(CYTHON_UNUSED P
   __pyx_t_3 = (__pyx_v_output_file == Py_None);
   if (__pyx_t_3) {
 
-    /* "pybooksim2/pybooksim2.pyx":100
+    /* "pybooksim2/pybooksim2.pyx":101
  *     cdef char *output_file_p
  *     if output_file is None:
  *         output_file_p = NULL             # <<<<<<<<<<<<<<
@@ -3760,7 +3750,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_8create_icnt(CYTHON_UNUSED P
 */
     __pyx_v_output_file_p = NULL;
 
-    /* "pybooksim2/pybooksim2.pyx":99
+    /* "pybooksim2/pybooksim2.pyx":100
  *     cdef void *config_p = PyCapsule_GetPointer(config, CONFIG_CAPSULE_NAME)
  *     cdef char *output_file_p
  *     if output_file is None:             # <<<<<<<<<<<<<<
@@ -3770,7 +3760,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_8create_icnt(CYTHON_UNUSED P
     goto __pyx_L3;
   }
 
-  /* "pybooksim2/pybooksim2.pyx":102
+  /* "pybooksim2/pybooksim2.pyx":103
  *         output_file_p = NULL
  *     else:
  *         output_file_p = PyBytes_AsString(output_file.encode("ascii"))             # <<<<<<<<<<<<<<
@@ -3785,16 +3775,16 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_8create_icnt(CYTHON_UNUSED P
       PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_mstate_global->__pyx_n_u_ascii};
       __pyx_t_4 = __Pyx_PyObject_FastCallMethod(__pyx_mstate_global->__pyx_n_u_encode, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 102, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 103, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
-    __pyx_t_7 = PyBytes_AsString(__pyx_t_4); if (unlikely(__pyx_t_7 == ((char *)0))) __PYX_ERR(0, 102, __pyx_L1_error)
+    __pyx_t_7 = PyBytes_AsString(__pyx_t_4); if (unlikely(__pyx_t_7 == ((char *)0))) __PYX_ERR(0, 103, __pyx_L1_error)
     __pyx_v_output_file_p = __pyx_t_7;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   }
   __pyx_L3:;
 
-  /* "pybooksim2/pybooksim2.pyx":103
+  /* "pybooksim2/pybooksim2.pyx":104
  *     else:
  *         output_file_p = PyBytes_AsString(output_file.encode("ascii"))
  *     cdef void *icnt_p = pybooksim2_create_icnt(config_p, print_activity, print_trace, output_file_p)             # <<<<<<<<<<<<<<
@@ -3803,7 +3793,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_8create_icnt(CYTHON_UNUSED P
 */
   __pyx_v_icnt_p = pybooksim2_create_icnt(__pyx_v_config_p, __pyx_v_print_activity, __pyx_v_print_trace, __pyx_v_output_file_p);
 
-  /* "pybooksim2/pybooksim2.pyx":105
+  /* "pybooksim2/pybooksim2.pyx":106
  *     cdef void *icnt_p = pybooksim2_create_icnt(config_p, print_activity, print_trace, output_file_p)
  * 
  *     cap = PyCapsule_New(icnt_p, ICNT_CAPSULE_NAME, <PyCapsule_Destructor> icnt_capsule_destructor)             # <<<<<<<<<<<<<<
@@ -3812,15 +3802,15 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_8create_icnt(CYTHON_UNUSED P
 */
   if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 105, __pyx_L1_error)
+    __PYX_ERR(0, 106, __pyx_L1_error)
   }
-  __pyx_t_8 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME); if (unlikely((!__pyx_t_8) && PyErr_Occurred())) __PYX_ERR(0, 105, __pyx_L1_error)
-  __pyx_t_4 = PyCapsule_New(__pyx_v_icnt_p, __pyx_t_8, ((PyCapsule_Destructor)__pyx_f_10pybooksim2_10pybooksim2_icnt_capsule_destructor)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 105, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME); if (unlikely((!__pyx_t_8) && PyErr_Occurred())) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_4 = PyCapsule_New(__pyx_v_icnt_p, __pyx_t_8, ((PyCapsule_Destructor)__pyx_f_10pybooksim2_10pybooksim2_icnt_capsule_destructor)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 106, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_v_cap = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":106
+  /* "pybooksim2/pybooksim2.pyx":107
  * 
  *     cap = PyCapsule_New(icnt_p, ICNT_CAPSULE_NAME, <PyCapsule_Destructor> icnt_capsule_destructor)
  *     return cap             # <<<<<<<<<<<<<<
@@ -3832,7 +3822,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_8create_icnt(CYTHON_UNUSED P
   __pyx_r = __pyx_v_cap;
   goto __pyx_L0;
 
-  /* "pybooksim2/pybooksim2.pyx":94
+  /* "pybooksim2/pybooksim2.pyx":95
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -3853,7 +3843,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_8create_icnt(CYTHON_UNUSED P
   return __pyx_r;
 }
 
-/* "pybooksim2/pybooksim2.pyx":109
+/* "pybooksim2/pybooksim2.pyx":110
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -3905,67 +3895,67 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_src_id,&__pyx_mstate_global->__pyx_n_u_dst_id,&__pyx_mstate_global->__pyx_n_u_subnet,&__pyx_mstate_global->__pyx_n_u_size,&__pyx_mstate_global->__pyx_n_u_is_write,&__pyx_mstate_global->__pyx_n_u_is_response,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 109, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 110, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  6:
         values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 109, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 110, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 109, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 110, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 109, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 110, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 109, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 110, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 109, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 110, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 109, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 110, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "create_icnt_cmd_data_packet", 0) < 0) __PYX_ERR(0, 109, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "create_icnt_cmd_data_packet", 0) < 0) __PYX_ERR(0, 110, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 6; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("create_icnt_cmd_data_packet", 1, 6, 6, i); __PYX_ERR(0, 109, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("create_icnt_cmd_data_packet", 1, 6, 6, i); __PYX_ERR(0, 110, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 6)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 109, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 110, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 109, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 110, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 109, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 110, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 109, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 110, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 109, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 110, __pyx_L3_error)
       values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 109, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 110, __pyx_L3_error)
     }
-    __pyx_v_src_id = __Pyx_PyLong_As_int(values[0]); if (unlikely((__pyx_v_src_id == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 111, __pyx_L3_error)
-    __pyx_v_dst_id = __Pyx_PyLong_As_int(values[1]); if (unlikely((__pyx_v_dst_id == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 111, __pyx_L3_error)
-    __pyx_v_subnet = __Pyx_PyLong_As_int(values[2]); if (unlikely((__pyx_v_subnet == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 111, __pyx_L3_error)
-    __pyx_v_size = __Pyx_PyLong_As_int(values[3]); if (unlikely((__pyx_v_size == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 111, __pyx_L3_error)
-    __pyx_v_is_write = __Pyx_PyObject_IsTrue(values[4]); if (unlikely((__pyx_v_is_write == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 111, __pyx_L3_error)
-    __pyx_v_is_response = __Pyx_PyObject_IsTrue(values[5]); if (unlikely((__pyx_v_is_response == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 111, __pyx_L3_error)
+    __pyx_v_src_id = __Pyx_PyLong_As_int(values[0]); if (unlikely((__pyx_v_src_id == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 112, __pyx_L3_error)
+    __pyx_v_dst_id = __Pyx_PyLong_As_int(values[1]); if (unlikely((__pyx_v_dst_id == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 112, __pyx_L3_error)
+    __pyx_v_subnet = __Pyx_PyLong_As_int(values[2]); if (unlikely((__pyx_v_subnet == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 112, __pyx_L3_error)
+    __pyx_v_size = __Pyx_PyLong_As_int(values[3]); if (unlikely((__pyx_v_size == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 112, __pyx_L3_error)
+    __pyx_v_is_write = __Pyx_PyObject_IsTrue(values[4]); if (unlikely((__pyx_v_is_write == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 112, __pyx_L3_error)
+    __pyx_v_is_response = __Pyx_PyObject_IsTrue(values[5]); if (unlikely((__pyx_v_is_response == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 112, __pyx_L3_error)
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("create_icnt_cmd_data_packet", 1, 6, 6, __pyx_nargs); __PYX_ERR(0, 109, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("create_icnt_cmd_data_packet", 1, 6, 6, __pyx_nargs); __PYX_ERR(0, 110, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -3998,7 +3988,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_10create_icnt_cmd_data_packe
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("create_icnt_cmd_data_packet", 0);
 
-  /* "pybooksim2/pybooksim2.pyx":112
+  /* "pybooksim2/pybooksim2.pyx":113
  * @cython.wraparound(False)
  * def create_icnt_cmd_data_packet(int src_id, int dst_id, int subnet, int size, bint is_write, bint is_response):
  *     cdef void *cmd_p = pybooksim2_create_icnt_cmd_data_packet(src_id, dst_id, subnet, size, is_write, is_response)             # <<<<<<<<<<<<<<
@@ -4007,7 +3997,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_10create_icnt_cmd_data_packe
 */
   __pyx_v_cmd_p = pybooksim2_create_icnt_cmd_data_packet(__pyx_v_src_id, __pyx_v_dst_id, __pyx_v_subnet, __pyx_v_size, __pyx_v_is_write, __pyx_v_is_response);
 
-  /* "pybooksim2/pybooksim2.pyx":113
+  /* "pybooksim2/pybooksim2.pyx":114
  * def create_icnt_cmd_data_packet(int src_id, int dst_id, int subnet, int size, bint is_write, bint is_response):
  *     cdef void *cmd_p = pybooksim2_create_icnt_cmd_data_packet(src_id, dst_id, subnet, size, is_write, is_response)
  *     cap = PyCapsule_New(cmd_p, CMD_CAPSULE_NAME, <PyCapsule_Destructor> cmd_capsule_destructor)             # <<<<<<<<<<<<<<
@@ -4016,15 +4006,15 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_10create_icnt_cmd_data_packe
 */
   if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 113, __pyx_L1_error)
+    __PYX_ERR(0, 114, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 113, __pyx_L1_error)
-  __pyx_t_2 = PyCapsule_New(__pyx_v_cmd_p, __pyx_t_1, ((PyCapsule_Destructor)__pyx_f_10pybooksim2_10pybooksim2_cmd_capsule_destructor)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 113, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 114, __pyx_L1_error)
+  __pyx_t_2 = PyCapsule_New(__pyx_v_cmd_p, __pyx_t_1, ((PyCapsule_Destructor)__pyx_f_10pybooksim2_10pybooksim2_cmd_capsule_destructor)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_v_cap = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":114
+  /* "pybooksim2/pybooksim2.pyx":115
  *     cdef void *cmd_p = pybooksim2_create_icnt_cmd_data_packet(src_id, dst_id, subnet, size, is_write, is_response)
  *     cap = PyCapsule_New(cmd_p, CMD_CAPSULE_NAME, <PyCapsule_Destructor> cmd_capsule_destructor)
  *     return cap             # <<<<<<<<<<<<<<
@@ -4036,7 +4026,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_10create_icnt_cmd_data_packe
   __pyx_r = __pyx_v_cap;
   goto __pyx_L0;
 
-  /* "pybooksim2/pybooksim2.pyx":109
+  /* "pybooksim2/pybooksim2.pyx":110
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -4056,7 +4046,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_10create_icnt_cmd_data_packe
   return __pyx_r;
 }
 
-/* "pybooksim2/pybooksim2.pyx":116
+/* "pybooksim2/pybooksim2.pyx":117
  *     return cap
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -4107,60 +4097,60 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_src_id,&__pyx_mstate_global->__pyx_n_u_dst_id,&__pyx_mstate_global->__pyx_n_u_subnet,&__pyx_mstate_global->__pyx_n_u_size,&__pyx_mstate_global->__pyx_n_u_is_response,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 116, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 117, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 116, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 117, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 116, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 117, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 116, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 117, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 116, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 117, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 116, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 117, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "create_icnt_cmd_control_packet", 0) < 0) __PYX_ERR(0, 116, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "create_icnt_cmd_control_packet", 0) < 0) __PYX_ERR(0, 117, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 5; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("create_icnt_cmd_control_packet", 1, 5, 5, i); __PYX_ERR(0, 116, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("create_icnt_cmd_control_packet", 1, 5, 5, i); __PYX_ERR(0, 117, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 5)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 116, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 117, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 116, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 117, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 116, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 117, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 116, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 117, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 116, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 117, __pyx_L3_error)
     }
-    __pyx_v_src_id = __Pyx_PyLong_As_int(values[0]); if (unlikely((__pyx_v_src_id == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 118, __pyx_L3_error)
-    __pyx_v_dst_id = __Pyx_PyLong_As_int(values[1]); if (unlikely((__pyx_v_dst_id == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 118, __pyx_L3_error)
-    __pyx_v_subnet = __Pyx_PyLong_As_int(values[2]); if (unlikely((__pyx_v_subnet == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 118, __pyx_L3_error)
-    __pyx_v_size = __Pyx_PyLong_As_int(values[3]); if (unlikely((__pyx_v_size == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 118, __pyx_L3_error)
-    __pyx_v_is_response = __Pyx_PyObject_IsTrue(values[4]); if (unlikely((__pyx_v_is_response == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 118, __pyx_L3_error)
+    __pyx_v_src_id = __Pyx_PyLong_As_int(values[0]); if (unlikely((__pyx_v_src_id == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 119, __pyx_L3_error)
+    __pyx_v_dst_id = __Pyx_PyLong_As_int(values[1]); if (unlikely((__pyx_v_dst_id == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 119, __pyx_L3_error)
+    __pyx_v_subnet = __Pyx_PyLong_As_int(values[2]); if (unlikely((__pyx_v_subnet == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 119, __pyx_L3_error)
+    __pyx_v_size = __Pyx_PyLong_As_int(values[3]); if (unlikely((__pyx_v_size == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 119, __pyx_L3_error)
+    __pyx_v_is_response = __Pyx_PyObject_IsTrue(values[4]); if (unlikely((__pyx_v_is_response == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 119, __pyx_L3_error)
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("create_icnt_cmd_control_packet", 1, 5, 5, __pyx_nargs); __PYX_ERR(0, 116, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("create_icnt_cmd_control_packet", 1, 5, 5, __pyx_nargs); __PYX_ERR(0, 117, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -4193,7 +4183,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_12create_icnt_cmd_control_pa
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("create_icnt_cmd_control_packet", 0);
 
-  /* "pybooksim2/pybooksim2.pyx":119
+  /* "pybooksim2/pybooksim2.pyx":120
  * @cython.wraparound(False)
  * def create_icnt_cmd_control_packet(int src_id, int dst_id, int subnet, int size, bint is_response):
  *     cdef void *cmd_p = pybooksim2_create_icnt_cmd_control_packet(src_id, dst_id, subnet, size, is_response)             # <<<<<<<<<<<<<<
@@ -4202,7 +4192,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_12create_icnt_cmd_control_pa
 */
   __pyx_v_cmd_p = pybooksim2_create_icnt_cmd_control_packet(__pyx_v_src_id, __pyx_v_dst_id, __pyx_v_subnet, __pyx_v_size, __pyx_v_is_response);
 
-  /* "pybooksim2/pybooksim2.pyx":120
+  /* "pybooksim2/pybooksim2.pyx":121
  * def create_icnt_cmd_control_packet(int src_id, int dst_id, int subnet, int size, bint is_response):
  *     cdef void *cmd_p = pybooksim2_create_icnt_cmd_control_packet(src_id, dst_id, subnet, size, is_response)
  *     cap = PyCapsule_New(cmd_p, CMD_CAPSULE_NAME, <PyCapsule_Destructor> cmd_capsule_destructor)             # <<<<<<<<<<<<<<
@@ -4211,15 +4201,15 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_12create_icnt_cmd_control_pa
 */
   if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 120, __pyx_L1_error)
+    __PYX_ERR(0, 121, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 120, __pyx_L1_error)
-  __pyx_t_2 = PyCapsule_New(__pyx_v_cmd_p, __pyx_t_1, ((PyCapsule_Destructor)__pyx_f_10pybooksim2_10pybooksim2_cmd_capsule_destructor)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 120, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 121, __pyx_L1_error)
+  __pyx_t_2 = PyCapsule_New(__pyx_v_cmd_p, __pyx_t_1, ((PyCapsule_Destructor)__pyx_f_10pybooksim2_10pybooksim2_cmd_capsule_destructor)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 121, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_v_cap = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":121
+  /* "pybooksim2/pybooksim2.pyx":122
  *     cdef void *cmd_p = pybooksim2_create_icnt_cmd_control_packet(src_id, dst_id, subnet, size, is_response)
  *     cap = PyCapsule_New(cmd_p, CMD_CAPSULE_NAME, <PyCapsule_Destructor> cmd_capsule_destructor)
  *     return cap             # <<<<<<<<<<<<<<
@@ -4231,7 +4221,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_12create_icnt_cmd_control_pa
   __pyx_r = __pyx_v_cap;
   goto __pyx_L0;
 
-  /* "pybooksim2/pybooksim2.pyx":116
+  /* "pybooksim2/pybooksim2.pyx":117
  *     return cap
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -4251,7 +4241,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_12create_icnt_cmd_control_pa
   return __pyx_r;
 }
 
-/* "pybooksim2/pybooksim2.pyx":124
+/* "pybooksim2/pybooksim2.pyx":125
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -4298,32 +4288,32 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_cmd,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 124, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 125, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 124, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 125, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "check_icnt_cmd_received", 0) < 0) __PYX_ERR(0, 124, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "check_icnt_cmd_received", 0) < 0) __PYX_ERR(0, 125, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 1; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("check_icnt_cmd_received", 1, 1, 1, i); __PYX_ERR(0, 124, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("check_icnt_cmd_received", 1, 1, 1, i); __PYX_ERR(0, 125, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 1)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 124, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 125, __pyx_L3_error)
     }
     __pyx_v_cmd = values[0];
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("check_icnt_cmd_received", 1, 1, 1, __pyx_nargs); __PYX_ERR(0, 124, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("check_icnt_cmd_received", 1, 1, 1, __pyx_nargs); __PYX_ERR(0, 125, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -4357,7 +4347,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_14check_icnt_cmd_received(CY
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("check_icnt_cmd_received", 0);
 
-  /* "pybooksim2/pybooksim2.pyx":127
+  /* "pybooksim2/pybooksim2.pyx":128
  * @cython.wraparound(False)
  * def check_icnt_cmd_received(cmd):
  *     cdef void *cmd_p = PyCapsule_GetPointer(cmd, CMD_CAPSULE_NAME)             # <<<<<<<<<<<<<<
@@ -4366,13 +4356,13 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_14check_icnt_cmd_received(CY
 */
   if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 127, __pyx_L1_error)
+    __PYX_ERR(0, 128, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 127, __pyx_L1_error)
-  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_cmd, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 127, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 128, __pyx_L1_error)
+  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_cmd, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 128, __pyx_L1_error)
   __pyx_v_cmd_p = __pyx_t_2;
 
-  /* "pybooksim2/pybooksim2.pyx":128
+  /* "pybooksim2/pybooksim2.pyx":129
  * def check_icnt_cmd_received(cmd):
  *     cdef void *cmd_p = PyCapsule_GetPointer(cmd, CMD_CAPSULE_NAME)
  *     cdef bint flag = pybooksim2_check_icnt_cmd_received(cmd_p)             # <<<<<<<<<<<<<<
@@ -4381,7 +4371,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_14check_icnt_cmd_received(CY
 */
   __pyx_v_flag = pybooksim2_check_icnt_cmd_received(__pyx_v_cmd_p);
 
-  /* "pybooksim2/pybooksim2.pyx":129
+  /* "pybooksim2/pybooksim2.pyx":130
  *     cdef void *cmd_p = PyCapsule_GetPointer(cmd, CMD_CAPSULE_NAME)
  *     cdef bint flag = pybooksim2_check_icnt_cmd_received(cmd_p)
  *     return flag             # <<<<<<<<<<<<<<
@@ -4389,13 +4379,13 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_14check_icnt_cmd_received(CY
  * @cython.boundscheck(False)
 */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_flag); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 129, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_flag); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 130, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_r = __pyx_t_3;
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "pybooksim2/pybooksim2.pyx":124
+  /* "pybooksim2/pybooksim2.pyx":125
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -4414,24 +4404,24 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_14check_icnt_cmd_received(CY
   return __pyx_r;
 }
 
-/* "pybooksim2/pybooksim2.pyx":131
+/* "pybooksim2/pybooksim2.pyx":132
  *     return flag
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
- * def check_icnt_cmd_handled(cmd):
+ * def get_expected_cmd_cycles(cmd):
 */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10pybooksim2_10pybooksim2_17check_icnt_cmd_handled(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_10pybooksim2_10pybooksim2_17get_expected_cmd_cycles(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_10pybooksim2_10pybooksim2_17check_icnt_cmd_handled = {"check_icnt_cmd_handled", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_10pybooksim2_10pybooksim2_17check_icnt_cmd_handled, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10pybooksim2_10pybooksim2_17check_icnt_cmd_handled(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_10pybooksim2_10pybooksim2_17get_expected_cmd_cycles = {"get_expected_cmd_cycles", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_10pybooksim2_10pybooksim2_17get_expected_cmd_cycles, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pybooksim2_10pybooksim2_17get_expected_cmd_cycles(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -4449,7 +4439,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("check_icnt_cmd_handled (wrapper)", 0);
+  __Pyx_RefNannySetupContext("get_expected_cmd_cycles (wrapper)", 0);
   #if !CYTHON_METH_FASTCALL
   #if CYTHON_ASSUME_SAFE_SIZE
   __pyx_nargs = PyTuple_GET_SIZE(__pyx_args);
@@ -4461,43 +4451,43 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_cmd,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 131, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 132, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 131, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 132, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "check_icnt_cmd_handled", 0) < 0) __PYX_ERR(0, 131, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "get_expected_cmd_cycles", 0) < 0) __PYX_ERR(0, 132, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 1; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("check_icnt_cmd_handled", 1, 1, 1, i); __PYX_ERR(0, 131, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("get_expected_cmd_cycles", 1, 1, 1, i); __PYX_ERR(0, 132, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 1)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 131, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 132, __pyx_L3_error)
     }
     __pyx_v_cmd = values[0];
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("check_icnt_cmd_handled", 1, 1, 1, __pyx_nargs); __PYX_ERR(0, 131, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("get_expected_cmd_cycles", 1, 1, 1, __pyx_nargs); __PYX_ERR(0, 132, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
     Py_XDECREF(values[__pyx_temp]);
   }
-  __Pyx_AddTraceback("pybooksim2.pybooksim2.check_icnt_cmd_handled", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pybooksim2.pybooksim2.get_expected_cmd_cycles", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10pybooksim2_10pybooksim2_16check_icnt_cmd_handled(__pyx_self, __pyx_v_cmd);
+  __pyx_r = __pyx_pf_10pybooksim2_10pybooksim2_16get_expected_cmd_cycles(__pyx_self, __pyx_v_cmd);
 
   /* function exit code */
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
@@ -4507,9 +4497,9 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_16check_icnt_cmd_handled(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_cmd) {
+static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_16get_expected_cmd_cycles(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_cmd) {
   void *__pyx_v_cmd_p;
-  int __pyx_v_flag;
+  int __pyx_v_cycles;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   char const *__pyx_t_1;
@@ -4518,58 +4508,58 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_16check_icnt_cmd_handled(CYT
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("check_icnt_cmd_handled", 0);
+  __Pyx_RefNannySetupContext("get_expected_cmd_cycles", 0);
 
-  /* "pybooksim2/pybooksim2.pyx":134
+  /* "pybooksim2/pybooksim2.pyx":135
  * @cython.wraparound(False)
- * def check_icnt_cmd_handled(cmd):
+ * def get_expected_cmd_cycles(cmd):
  *     cdef void *cmd_p = PyCapsule_GetPointer(cmd, CMD_CAPSULE_NAME)             # <<<<<<<<<<<<<<
- *     cdef bint flag = pybooksim2_check_icnt_cmd_handled(cmd_p)
- *     return flag
+ *     cdef int cycles = pybooksim2_get_expected_cmd_cycles(cmd_p)
+ *     return cycles
 */
   if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 134, __pyx_L1_error)
+    __PYX_ERR(0, 135, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 134, __pyx_L1_error)
-  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_cmd, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 134, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 135, __pyx_L1_error)
+  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_cmd, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 135, __pyx_L1_error)
   __pyx_v_cmd_p = __pyx_t_2;
 
-  /* "pybooksim2/pybooksim2.pyx":135
- * def check_icnt_cmd_handled(cmd):
- *     cdef void *cmd_p = PyCapsule_GetPointer(cmd, CMD_CAPSULE_NAME)
- *     cdef bint flag = pybooksim2_check_icnt_cmd_handled(cmd_p)             # <<<<<<<<<<<<<<
- *     return flag
- * 
-*/
-  __pyx_v_flag = pybooksim2_check_icnt_cmd_handled(__pyx_v_cmd_p);
-
   /* "pybooksim2/pybooksim2.pyx":136
+ * def get_expected_cmd_cycles(cmd):
  *     cdef void *cmd_p = PyCapsule_GetPointer(cmd, CMD_CAPSULE_NAME)
- *     cdef bint flag = pybooksim2_check_icnt_cmd_handled(cmd_p)
- *     return flag             # <<<<<<<<<<<<<<
+ *     cdef int cycles = pybooksim2_get_expected_cmd_cycles(cmd_p)             # <<<<<<<<<<<<<<
+ *     return cycles
  * 
- * @cython.boundscheck(False)
+*/
+  __pyx_v_cycles = pybooksim2_get_expected_cmd_cycles(__pyx_v_cmd_p);
+
+  /* "pybooksim2/pybooksim2.pyx":137
+ *     cdef void *cmd_p = PyCapsule_GetPointer(cmd, CMD_CAPSULE_NAME)
+ *     cdef int cycles = pybooksim2_get_expected_cmd_cycles(cmd_p)
+ *     return cycles             # <<<<<<<<<<<<<<
+ * 
+ * # @cython.boundscheck(False)
 */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_flag); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 136, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyLong_From_int(__pyx_v_cycles); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 137, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_r = __pyx_t_3;
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "pybooksim2/pybooksim2.pyx":131
+  /* "pybooksim2/pybooksim2.pyx":132
  *     return flag
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
- * def check_icnt_cmd_handled(cmd):
+ * def get_expected_cmd_cycles(cmd):
 */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("pybooksim2.pybooksim2.check_icnt_cmd_handled", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pybooksim2.pybooksim2.get_expected_cmd_cycles", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4577,178 +4567,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_16check_icnt_cmd_handled(CYT
   return __pyx_r;
 }
 
-/* "pybooksim2/pybooksim2.pyx":138
- *     return flag
- * 
- * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
- * @cython.wraparound(False)
- * def check_icnt_node_busy(icnt, int node_id):
-*/
-
-/* Python wrapper */
-static PyObject *__pyx_pw_10pybooksim2_10pybooksim2_19check_icnt_node_busy(PyObject *__pyx_self, 
-#if CYTHON_METH_FASTCALL
-PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
-#else
-PyObject *__pyx_args, PyObject *__pyx_kwds
-#endif
-); /*proto*/
-static PyMethodDef __pyx_mdef_10pybooksim2_10pybooksim2_19check_icnt_node_busy = {"check_icnt_node_busy", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_10pybooksim2_10pybooksim2_19check_icnt_node_busy, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10pybooksim2_10pybooksim2_19check_icnt_node_busy(PyObject *__pyx_self, 
-#if CYTHON_METH_FASTCALL
-PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
-#else
-PyObject *__pyx_args, PyObject *__pyx_kwds
-#endif
-) {
-  PyObject *__pyx_v_icnt = 0;
-  int __pyx_v_node_id;
-  #if !CYTHON_METH_FASTCALL
-  CYTHON_UNUSED Py_ssize_t __pyx_nargs;
-  #endif
-  CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
-  PyObject* values[2] = {0,0};
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("check_icnt_node_busy (wrapper)", 0);
-  #if !CYTHON_METH_FASTCALL
-  #if CYTHON_ASSUME_SAFE_SIZE
-  __pyx_nargs = PyTuple_GET_SIZE(__pyx_args);
-  #else
-  __pyx_nargs = PyTuple_Size(__pyx_args); if (unlikely(__pyx_nargs < 0)) return NULL;
-  #endif
-  #endif
-  __pyx_kwvalues = __Pyx_KwValues_FASTCALL(__pyx_args, __pyx_nargs);
-  {
-    PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_icnt,&__pyx_mstate_global->__pyx_n_u_node_id,0};
-    const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 138, __pyx_L3_error)
-    if (__pyx_kwds_len > 0) {
-      switch (__pyx_nargs) {
-        case  2:
-        values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 138, __pyx_L3_error)
-        CYTHON_FALLTHROUGH;
-        case  1:
-        values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 138, __pyx_L3_error)
-        CYTHON_FALLTHROUGH;
-        case  0: break;
-        default: goto __pyx_L5_argtuple_error;
-      }
-      const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "check_icnt_node_busy", 0) < 0) __PYX_ERR(0, 138, __pyx_L3_error)
-      for (Py_ssize_t i = __pyx_nargs; i < 2; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("check_icnt_node_busy", 1, 2, 2, i); __PYX_ERR(0, 138, __pyx_L3_error) }
-      }
-    } else if (unlikely(__pyx_nargs != 2)) {
-      goto __pyx_L5_argtuple_error;
-    } else {
-      values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 138, __pyx_L3_error)
-      values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 138, __pyx_L3_error)
-    }
-    __pyx_v_icnt = values[0];
-    __pyx_v_node_id = __Pyx_PyLong_As_int(values[1]); if (unlikely((__pyx_v_node_id == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 140, __pyx_L3_error)
-  }
-  goto __pyx_L6_skip;
-  __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("check_icnt_node_busy", 1, 2, 2, __pyx_nargs); __PYX_ERR(0, 138, __pyx_L3_error)
-  __pyx_L6_skip:;
-  goto __pyx_L4_argument_unpacking_done;
-  __pyx_L3_error:;
-  for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
-    Py_XDECREF(values[__pyx_temp]);
-  }
-  __Pyx_AddTraceback("pybooksim2.pybooksim2.check_icnt_node_busy", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __Pyx_RefNannyFinishContext();
-  return NULL;
-  __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10pybooksim2_10pybooksim2_18check_icnt_node_busy(__pyx_self, __pyx_v_icnt, __pyx_v_node_id);
-
-  /* function exit code */
-  for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
-    Py_XDECREF(values[__pyx_temp]);
-  }
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_18check_icnt_node_busy(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_icnt, int __pyx_v_node_id) {
-  void *__pyx_v_icnt_p;
-  int __pyx_v_flag;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  char const *__pyx_t_1;
-  void *__pyx_t_2;
-  PyObject *__pyx_t_3 = NULL;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("check_icnt_node_busy", 0);
-
-  /* "pybooksim2/pybooksim2.pyx":141
- * @cython.wraparound(False)
- * def check_icnt_node_busy(icnt, int node_id):
- *     cdef void *icnt_p = PyCapsule_GetPointer(icnt, ICNT_CAPSULE_NAME)             # <<<<<<<<<<<<<<
- *     cdef bint flag = pybooksim2_check_icnt_node_busy(icnt_p, node_id)
- *     return flag
-*/
-  if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME == Py_None)) {
-    PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 141, __pyx_L1_error)
-  }
-  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 141, __pyx_L1_error)
-  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_icnt, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 141, __pyx_L1_error)
-  __pyx_v_icnt_p = __pyx_t_2;
-
-  /* "pybooksim2/pybooksim2.pyx":142
- * def check_icnt_node_busy(icnt, int node_id):
- *     cdef void *icnt_p = PyCapsule_GetPointer(icnt, ICNT_CAPSULE_NAME)
- *     cdef bint flag = pybooksim2_check_icnt_node_busy(icnt_p, node_id)             # <<<<<<<<<<<<<<
- *     return flag
- * 
-*/
-  __pyx_v_flag = pybooksim2_check_icnt_node_busy(__pyx_v_icnt_p, __pyx_v_node_id);
-
-  /* "pybooksim2/pybooksim2.pyx":143
- *     cdef void *icnt_p = PyCapsule_GetPointer(icnt, ICNT_CAPSULE_NAME)
- *     cdef bint flag = pybooksim2_check_icnt_node_busy(icnt_p, node_id)
- *     return flag             # <<<<<<<<<<<<<<
- * 
- * 
-*/
-  __Pyx_XDECREF(__pyx_r);
-  __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_flag); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 143, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __pyx_r = __pyx_t_3;
-  __pyx_t_3 = 0;
-  goto __pyx_L0;
-
-  /* "pybooksim2/pybooksim2.pyx":138
- *     return flag
- * 
- * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
- * @cython.wraparound(False)
- * def check_icnt_node_busy(icnt, int node_id):
-*/
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("pybooksim2.pybooksim2.check_icnt_node_busy", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "pybooksim2/pybooksim2.pyx":146
+/* "pybooksim2/pybooksim2.pyx":154
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -4757,15 +4576,15 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_18check_icnt_node_busy(CYTHO
 */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10pybooksim2_10pybooksim2_21icnt_dispatch_cmd(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_10pybooksim2_10pybooksim2_19icnt_dispatch_cmd(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_10pybooksim2_10pybooksim2_21icnt_dispatch_cmd = {"icnt_dispatch_cmd", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_10pybooksim2_10pybooksim2_21icnt_dispatch_cmd, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10pybooksim2_10pybooksim2_21icnt_dispatch_cmd(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_10pybooksim2_10pybooksim2_19icnt_dispatch_cmd = {"icnt_dispatch_cmd", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_10pybooksim2_10pybooksim2_19icnt_dispatch_cmd, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pybooksim2_10pybooksim2_19icnt_dispatch_cmd(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -4796,39 +4615,39 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_icnt,&__pyx_mstate_global->__pyx_n_u_cmd,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 146, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 154, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 146, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 154, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 146, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 154, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "icnt_dispatch_cmd", 0) < 0) __PYX_ERR(0, 146, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "icnt_dispatch_cmd", 0) < 0) __PYX_ERR(0, 154, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 2; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("icnt_dispatch_cmd", 1, 2, 2, i); __PYX_ERR(0, 146, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("icnt_dispatch_cmd", 1, 2, 2, i); __PYX_ERR(0, 154, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 2)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 146, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 154, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 146, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 154, __pyx_L3_error)
     }
     __pyx_v_icnt = values[0];
     __pyx_v_cmd = values[1];
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("icnt_dispatch_cmd", 1, 2, 2, __pyx_nargs); __PYX_ERR(0, 146, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("icnt_dispatch_cmd", 1, 2, 2, __pyx_nargs); __PYX_ERR(0, 154, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -4839,7 +4658,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10pybooksim2_10pybooksim2_20icnt_dispatch_cmd(__pyx_self, __pyx_v_icnt, __pyx_v_cmd);
+  __pyx_r = __pyx_pf_10pybooksim2_10pybooksim2_18icnt_dispatch_cmd(__pyx_self, __pyx_v_icnt, __pyx_v_cmd);
 
   /* function exit code */
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
@@ -4849,179 +4668,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_20icnt_dispatch_cmd(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_icnt, PyObject *__pyx_v_cmd) {
-  void *__pyx_v_icnt_p;
-  void *__pyx_v_cmd_p;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  char const *__pyx_t_1;
-  void *__pyx_t_2;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("icnt_dispatch_cmd", 0);
-
-  /* "pybooksim2/pybooksim2.pyx":149
- * @cython.wraparound(False)
- * def icnt_dispatch_cmd(icnt, cmd):
- *     cdef void *icnt_p = PyCapsule_GetPointer(icnt, ICNT_CAPSULE_NAME)             # <<<<<<<<<<<<<<
- *     cdef void *cmd_p = PyCapsule_GetPointer(cmd, CMD_CAPSULE_NAME)
- *     pybooksim2_icnt_dispatch_cmd(icnt_p, cmd_p)
-*/
-  if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME == Py_None)) {
-    PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 149, __pyx_L1_error)
-  }
-  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 149, __pyx_L1_error)
-  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_icnt, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 149, __pyx_L1_error)
-  __pyx_v_icnt_p = __pyx_t_2;
-
-  /* "pybooksim2/pybooksim2.pyx":150
- * def icnt_dispatch_cmd(icnt, cmd):
- *     cdef void *icnt_p = PyCapsule_GetPointer(icnt, ICNT_CAPSULE_NAME)
- *     cdef void *cmd_p = PyCapsule_GetPointer(cmd, CMD_CAPSULE_NAME)             # <<<<<<<<<<<<<<
- *     pybooksim2_icnt_dispatch_cmd(icnt_p, cmd_p)
- * 
-*/
-  if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME == Py_None)) {
-    PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 150, __pyx_L1_error)
-  }
-  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 150, __pyx_L1_error)
-  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_cmd, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 150, __pyx_L1_error)
-  __pyx_v_cmd_p = __pyx_t_2;
-
-  /* "pybooksim2/pybooksim2.pyx":151
- *     cdef void *icnt_p = PyCapsule_GetPointer(icnt, ICNT_CAPSULE_NAME)
- *     cdef void *cmd_p = PyCapsule_GetPointer(cmd, CMD_CAPSULE_NAME)
- *     pybooksim2_icnt_dispatch_cmd(icnt_p, cmd_p)             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
-*/
-  pybooksim2_icnt_dispatch_cmd(__pyx_v_icnt_p, __pyx_v_cmd_p);
-
-  /* "pybooksim2/pybooksim2.pyx":146
- * 
- * 
- * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
- * @cython.wraparound(False)
- * def icnt_dispatch_cmd(icnt, cmd):
-*/
-
-  /* function exit code */
-  __pyx_r = Py_None; __Pyx_INCREF(Py_None);
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __Pyx_AddTraceback("pybooksim2.pybooksim2.icnt_dispatch_cmd", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "pybooksim2/pybooksim2.pyx":153
- *     pybooksim2_icnt_dispatch_cmd(icnt_p, cmd_p)
- * 
- * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
- * @cython.wraparound(False)
- * def icnt_handle_cmd(icnt, cmd):
-*/
-
-/* Python wrapper */
-static PyObject *__pyx_pw_10pybooksim2_10pybooksim2_23icnt_handle_cmd(PyObject *__pyx_self, 
-#if CYTHON_METH_FASTCALL
-PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
-#else
-PyObject *__pyx_args, PyObject *__pyx_kwds
-#endif
-); /*proto*/
-static PyMethodDef __pyx_mdef_10pybooksim2_10pybooksim2_23icnt_handle_cmd = {"icnt_handle_cmd", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_10pybooksim2_10pybooksim2_23icnt_handle_cmd, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10pybooksim2_10pybooksim2_23icnt_handle_cmd(PyObject *__pyx_self, 
-#if CYTHON_METH_FASTCALL
-PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
-#else
-PyObject *__pyx_args, PyObject *__pyx_kwds
-#endif
-) {
-  PyObject *__pyx_v_icnt = 0;
-  PyObject *__pyx_v_cmd = 0;
-  #if !CYTHON_METH_FASTCALL
-  CYTHON_UNUSED Py_ssize_t __pyx_nargs;
-  #endif
-  CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
-  PyObject* values[2] = {0,0};
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("icnt_handle_cmd (wrapper)", 0);
-  #if !CYTHON_METH_FASTCALL
-  #if CYTHON_ASSUME_SAFE_SIZE
-  __pyx_nargs = PyTuple_GET_SIZE(__pyx_args);
-  #else
-  __pyx_nargs = PyTuple_Size(__pyx_args); if (unlikely(__pyx_nargs < 0)) return NULL;
-  #endif
-  #endif
-  __pyx_kwvalues = __Pyx_KwValues_FASTCALL(__pyx_args, __pyx_nargs);
-  {
-    PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_icnt,&__pyx_mstate_global->__pyx_n_u_cmd,0};
-    const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 153, __pyx_L3_error)
-    if (__pyx_kwds_len > 0) {
-      switch (__pyx_nargs) {
-        case  2:
-        values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 153, __pyx_L3_error)
-        CYTHON_FALLTHROUGH;
-        case  1:
-        values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 153, __pyx_L3_error)
-        CYTHON_FALLTHROUGH;
-        case  0: break;
-        default: goto __pyx_L5_argtuple_error;
-      }
-      const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "icnt_handle_cmd", 0) < 0) __PYX_ERR(0, 153, __pyx_L3_error)
-      for (Py_ssize_t i = __pyx_nargs; i < 2; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("icnt_handle_cmd", 1, 2, 2, i); __PYX_ERR(0, 153, __pyx_L3_error) }
-      }
-    } else if (unlikely(__pyx_nargs != 2)) {
-      goto __pyx_L5_argtuple_error;
-    } else {
-      values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 153, __pyx_L3_error)
-      values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 153, __pyx_L3_error)
-    }
-    __pyx_v_icnt = values[0];
-    __pyx_v_cmd = values[1];
-  }
-  goto __pyx_L6_skip;
-  __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("icnt_handle_cmd", 1, 2, 2, __pyx_nargs); __PYX_ERR(0, 153, __pyx_L3_error)
-  __pyx_L6_skip:;
-  goto __pyx_L4_argument_unpacking_done;
-  __pyx_L3_error:;
-  for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
-    Py_XDECREF(values[__pyx_temp]);
-  }
-  __Pyx_AddTraceback("pybooksim2.pybooksim2.icnt_handle_cmd", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __Pyx_RefNannyFinishContext();
-  return NULL;
-  __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10pybooksim2_10pybooksim2_22icnt_handle_cmd(__pyx_self, __pyx_v_icnt, __pyx_v_cmd);
-
-  /* function exit code */
-  for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
-    Py_XDECREF(values[__pyx_temp]);
-  }
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_22icnt_handle_cmd(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_icnt, PyObject *__pyx_v_cmd) {
+static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_18icnt_dispatch_cmd(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_icnt, PyObject *__pyx_v_cmd) {
   void *__pyx_v_icnt_p;
   void *__pyx_v_cmd_p;
   int __pyx_v_flag;
@@ -5033,73 +4680,73 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_22icnt_handle_cmd(CYTHON_UNU
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("icnt_handle_cmd", 0);
+  __Pyx_RefNannySetupContext("icnt_dispatch_cmd", 0);
 
-  /* "pybooksim2/pybooksim2.pyx":156
+  /* "pybooksim2/pybooksim2.pyx":157
  * @cython.wraparound(False)
- * def icnt_handle_cmd(icnt, cmd):
+ * def icnt_dispatch_cmd(icnt, cmd):
  *     cdef void *icnt_p = PyCapsule_GetPointer(icnt, ICNT_CAPSULE_NAME)             # <<<<<<<<<<<<<<
  *     cdef void *cmd_p = PyCapsule_GetPointer(cmd, CMD_CAPSULE_NAME)
- *     cdef bint flag = pybooksim2_icnt_handle_cmd(icnt_p, cmd_p)
+ *     cdef bint flag = pybooksim2_icnt_dispatch_cmd(icnt_p, cmd_p)
 */
   if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 156, __pyx_L1_error)
+    __PYX_ERR(0, 157, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 156, __pyx_L1_error)
-  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_icnt, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 156, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 157, __pyx_L1_error)
+  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_icnt, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 157, __pyx_L1_error)
   __pyx_v_icnt_p = __pyx_t_2;
 
-  /* "pybooksim2/pybooksim2.pyx":157
- * def icnt_handle_cmd(icnt, cmd):
+  /* "pybooksim2/pybooksim2.pyx":158
+ * def icnt_dispatch_cmd(icnt, cmd):
  *     cdef void *icnt_p = PyCapsule_GetPointer(icnt, ICNT_CAPSULE_NAME)
  *     cdef void *cmd_p = PyCapsule_GetPointer(cmd, CMD_CAPSULE_NAME)             # <<<<<<<<<<<<<<
- *     cdef bint flag = pybooksim2_icnt_handle_cmd(icnt_p, cmd_p)
+ *     cdef bint flag = pybooksim2_icnt_dispatch_cmd(icnt_p, cmd_p)
  *     return flag
 */
   if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 157, __pyx_L1_error)
+    __PYX_ERR(0, 158, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 157, __pyx_L1_error)
-  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_cmd, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 157, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 158, __pyx_L1_error)
+  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_cmd, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 158, __pyx_L1_error)
   __pyx_v_cmd_p = __pyx_t_2;
 
-  /* "pybooksim2/pybooksim2.pyx":158
+  /* "pybooksim2/pybooksim2.pyx":159
  *     cdef void *icnt_p = PyCapsule_GetPointer(icnt, ICNT_CAPSULE_NAME)
  *     cdef void *cmd_p = PyCapsule_GetPointer(cmd, CMD_CAPSULE_NAME)
- *     cdef bint flag = pybooksim2_icnt_handle_cmd(icnt_p, cmd_p)             # <<<<<<<<<<<<<<
+ *     cdef bint flag = pybooksim2_icnt_dispatch_cmd(icnt_p, cmd_p)             # <<<<<<<<<<<<<<
  *     return flag
  * 
 */
-  __pyx_v_flag = pybooksim2_icnt_handle_cmd(__pyx_v_icnt_p, __pyx_v_cmd_p);
+  __pyx_v_flag = pybooksim2_icnt_dispatch_cmd(__pyx_v_icnt_p, __pyx_v_cmd_p);
 
-  /* "pybooksim2/pybooksim2.pyx":159
+  /* "pybooksim2/pybooksim2.pyx":160
  *     cdef void *cmd_p = PyCapsule_GetPointer(cmd, CMD_CAPSULE_NAME)
- *     cdef bint flag = pybooksim2_icnt_handle_cmd(icnt_p, cmd_p)
+ *     cdef bint flag = pybooksim2_icnt_dispatch_cmd(icnt_p, cmd_p)
  *     return flag             # <<<<<<<<<<<<<<
  * 
- * @cython.boundscheck(False)
+ * # @cython.boundscheck(False)
 */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_flag); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 159, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_flag); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 160, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_r = __pyx_t_3;
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "pybooksim2/pybooksim2.pyx":153
- *     pybooksim2_icnt_dispatch_cmd(icnt_p, cmd_p)
+  /* "pybooksim2/pybooksim2.pyx":154
+ * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
- * def icnt_handle_cmd(icnt, cmd):
+ * def icnt_dispatch_cmd(icnt, cmd):
 */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("pybooksim2.pybooksim2.icnt_handle_cmd", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pybooksim2.pybooksim2.icnt_dispatch_cmd", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -5107,8 +4754,8 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_22icnt_handle_cmd(CYTHON_UNU
   return __pyx_r;
 }
 
-/* "pybooksim2/pybooksim2.pyx":161
- *     return flag
+/* "pybooksim2/pybooksim2.pyx":170
+ * #     return flag
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
@@ -5116,15 +4763,15 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_22icnt_handle_cmd(CYTHON_UNU
 */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10pybooksim2_10pybooksim2_25icnt_cycle_step(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_10pybooksim2_10pybooksim2_21icnt_cycle_step(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_10pybooksim2_10pybooksim2_25icnt_cycle_step = {"icnt_cycle_step", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_10pybooksim2_10pybooksim2_25icnt_cycle_step, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10pybooksim2_10pybooksim2_25icnt_cycle_step(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_10pybooksim2_10pybooksim2_21icnt_cycle_step = {"icnt_cycle_step", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_10pybooksim2_10pybooksim2_21icnt_cycle_step, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pybooksim2_10pybooksim2_21icnt_cycle_step(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -5155,39 +4802,39 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_icnt,&__pyx_mstate_global->__pyx_n_u_cycles,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 161, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 170, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 161, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 170, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 161, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 170, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "icnt_cycle_step", 0) < 0) __PYX_ERR(0, 161, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "icnt_cycle_step", 0) < 0) __PYX_ERR(0, 170, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 2; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("icnt_cycle_step", 1, 2, 2, i); __PYX_ERR(0, 161, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("icnt_cycle_step", 1, 2, 2, i); __PYX_ERR(0, 170, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 2)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 161, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 170, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 161, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 170, __pyx_L3_error)
     }
     __pyx_v_icnt = values[0];
-    __pyx_v_cycles = __Pyx_PyLong_As_int(values[1]); if (unlikely((__pyx_v_cycles == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 163, __pyx_L3_error)
+    __pyx_v_cycles = __Pyx_PyLong_As_int(values[1]); if (unlikely((__pyx_v_cycles == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 172, __pyx_L3_error)
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("icnt_cycle_step", 1, 2, 2, __pyx_nargs); __PYX_ERR(0, 161, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("icnt_cycle_step", 1, 2, 2, __pyx_nargs); __PYX_ERR(0, 170, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -5198,7 +4845,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10pybooksim2_10pybooksim2_24icnt_cycle_step(__pyx_self, __pyx_v_icnt, __pyx_v_cycles);
+  __pyx_r = __pyx_pf_10pybooksim2_10pybooksim2_20icnt_cycle_step(__pyx_self, __pyx_v_icnt, __pyx_v_cycles);
 
   /* function exit code */
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
@@ -5208,7 +4855,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_24icnt_cycle_step(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_icnt, int __pyx_v_cycles) {
+static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_20icnt_cycle_step(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_icnt, int __pyx_v_cycles) {
   void *__pyx_v_icnt_p;
   CYTHON_UNUSED int __pyx_v__;
   PyObject *__pyx_r = NULL;
@@ -5223,7 +4870,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_24icnt_cycle_step(CYTHON_UNU
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("icnt_cycle_step", 0);
 
-  /* "pybooksim2/pybooksim2.pyx":164
+  /* "pybooksim2/pybooksim2.pyx":173
  * @cython.wraparound(False)
  * def icnt_cycle_step(icnt, int cycles):
  *     cdef void *icnt_p = PyCapsule_GetPointer(icnt, ICNT_CAPSULE_NAME)             # <<<<<<<<<<<<<<
@@ -5232,13 +4879,13 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_24icnt_cycle_step(CYTHON_UNU
 */
   if (unlikely(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "expected bytes, NoneType found");
-    __PYX_ERR(0, 164, __pyx_L1_error)
+    __PYX_ERR(0, 173, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 164, __pyx_L1_error)
-  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_icnt, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 164, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBytes_AsString(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME); if (unlikely((!__pyx_t_1) && PyErr_Occurred())) __PYX_ERR(0, 173, __pyx_L1_error)
+  __pyx_t_2 = PyCapsule_GetPointer(__pyx_v_icnt, __pyx_t_1); if (unlikely(__pyx_t_2 == ((void *)0) && PyErr_Occurred())) __PYX_ERR(0, 173, __pyx_L1_error)
   __pyx_v_icnt_p = __pyx_t_2;
 
-  /* "pybooksim2/pybooksim2.pyx":165
+  /* "pybooksim2/pybooksim2.pyx":174
  * def icnt_cycle_step(icnt, int cycles):
  *     cdef void *icnt_p = PyCapsule_GetPointer(icnt, ICNT_CAPSULE_NAME)
  *     for _ in range(cycles):             # <<<<<<<<<<<<<<
@@ -5249,7 +4896,7 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_24icnt_cycle_step(CYTHON_UNU
   for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
     __pyx_v__ = __pyx_t_5;
 
-    /* "pybooksim2/pybooksim2.pyx":166
+    /* "pybooksim2/pybooksim2.pyx":175
  *     cdef void *icnt_p = PyCapsule_GetPointer(icnt, ICNT_CAPSULE_NAME)
  *     for _ in range(cycles):
  *         pybooksim2_icnt_cycle_step(icnt_p)             # <<<<<<<<<<<<<<
@@ -5257,8 +4904,8 @@ static PyObject *__pyx_pf_10pybooksim2_10pybooksim2_24icnt_cycle_step(CYTHON_UNU
     pybooksim2_icnt_cycle_step(__pyx_v_icnt_p);
   }
 
-  /* "pybooksim2/pybooksim2.pyx":161
- *     return flag
+  /* "pybooksim2/pybooksim2.pyx":170
+ * #     return flag
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
@@ -5666,19 +5313,19 @@ __Pyx_RefNannySetupContext("PyInit_pybooksim2", 0);
   (void)__Pyx_modinit_function_import_code(__pyx_mstate);
   /*--- Execution code ---*/
 
-  /* "pybooksim2/pybooksim2.pyx":32
+  /* "pybooksim2/pybooksim2.pyx":33
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def get_sim_time():
 */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_1get_sim_time, 0, __pyx_mstate_global->__pyx_n_u_get_sim_time, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 32, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_1get_sim_time, 0, __pyx_mstate_global->__pyx_n_u_get_sim_time, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 33, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_get_sim_time, __pyx_t_2) < 0) __PYX_ERR(0, 32, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_get_sim_time, __pyx_t_2) < 0) __PYX_ERR(0, 33, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":38
+  /* "pybooksim2/pybooksim2.pyx":39
  * 
  * 
  * cdef bytes ICNT_CAPSULE_NAME   = b"pybooksim2.icnt"             # <<<<<<<<<<<<<<
@@ -5690,7 +5337,7 @@ __Pyx_RefNannySetupContext("PyInit_pybooksim2", 0);
   __Pyx_DECREF_SET(__pyx_v_10pybooksim2_10pybooksim2_ICNT_CAPSULE_NAME, __pyx_mstate_global->__pyx_kp_b_pybooksim2_icnt);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_kp_b_pybooksim2_icnt);
 
-  /* "pybooksim2/pybooksim2.pyx":39
+  /* "pybooksim2/pybooksim2.pyx":40
  * 
  * cdef bytes ICNT_CAPSULE_NAME   = b"pybooksim2.icnt"
  * cdef bytes CONFIG_CAPSULE_NAME = b"pybooksim2.config"             # <<<<<<<<<<<<<<
@@ -5702,7 +5349,7 @@ __Pyx_RefNannySetupContext("PyInit_pybooksim2", 0);
   __Pyx_DECREF_SET(__pyx_v_10pybooksim2_10pybooksim2_CONFIG_CAPSULE_NAME, __pyx_mstate_global->__pyx_kp_b_pybooksim2_config);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_kp_b_pybooksim2_config);
 
-  /* "pybooksim2/pybooksim2.pyx":40
+  /* "pybooksim2/pybooksim2.pyx":41
  * cdef bytes ICNT_CAPSULE_NAME   = b"pybooksim2.icnt"
  * cdef bytes CONFIG_CAPSULE_NAME = b"pybooksim2.config"
  * cdef bytes CMD_CAPSULE_NAME    = b"pybooksim2.cmd"             # <<<<<<<<<<<<<<
@@ -5714,166 +5361,142 @@ __Pyx_RefNannySetupContext("PyInit_pybooksim2", 0);
   __Pyx_DECREF_SET(__pyx_v_10pybooksim2_10pybooksim2_CMD_CAPSULE_NAME, __pyx_mstate_global->__pyx_kp_b_pybooksim2_cmd);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_kp_b_pybooksim2_cmd);
 
-  /* "pybooksim2/pybooksim2.pyx":58
+  /* "pybooksim2/pybooksim2.pyx":59
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def create_config_from_file(config_file):
 */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_3create_config_from_file, 0, __pyx_mstate_global->__pyx_n_u_create_config_from_file, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[1])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 58, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_3create_config_from_file, 0, __pyx_mstate_global->__pyx_n_u_create_config_from_file, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[1])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 59, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_create_config_from_file, __pyx_t_2) < 0) __PYX_ERR(0, 58, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_create_config_from_file, __pyx_t_2) < 0) __PYX_ERR(0, 59, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":66
+  /* "pybooksim2/pybooksim2.pyx":67
  *     return cap
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def create_config_torus_2d(int subnets, int x, int y, int xr, int yr):
 */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_5create_config_torus_2d, 0, __pyx_mstate_global->__pyx_n_u_create_config_torus_2d, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 66, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_5create_config_torus_2d, 0, __pyx_mstate_global->__pyx_n_u_create_config_torus_2d, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_create_config_torus_2d, __pyx_t_2) < 0) __PYX_ERR(0, 66, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_create_config_torus_2d, __pyx_t_2) < 0) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":73
+  /* "pybooksim2/pybooksim2.pyx":74
  *     return cap
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def update_config(config, fleid, value):
 */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_7update_config, 0, __pyx_mstate_global->__pyx_n_u_update_config, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[3])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_7update_config, 0, __pyx_mstate_global->__pyx_n_u_update_config, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[3])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 74, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_update_config, __pyx_t_2) < 0) __PYX_ERR(0, 73, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_update_config, __pyx_t_2) < 0) __PYX_ERR(0, 74, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":96
+  /* "pybooksim2/pybooksim2.pyx":97
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def create_icnt(config, bint print_activity=0, bint print_trace=0, output_file=None):             # <<<<<<<<<<<<<<
  *     cdef void *config_p = PyCapsule_GetPointer(config, CONFIG_CAPSULE_NAME)
  *     cdef char *output_file_p
 */
-  __pyx_t_2 = __Pyx_PyBool_FromLong(((int)0)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(((int)0)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyBool_FromLong(((int)0)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyBool_FromLong(((int)0)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
 
-  /* "pybooksim2/pybooksim2.pyx":94
+  /* "pybooksim2/pybooksim2.pyx":95
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def create_icnt(config, bint print_activity=0, bint print_trace=0, output_file=None):
 */
-  __pyx_t_4 = PyTuple_Pack(3, __pyx_t_2, __pyx_t_3, Py_None); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_t_4 = PyTuple_Pack(3, __pyx_t_2, __pyx_t_3, Py_None); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_9create_icnt, 0, __pyx_mstate_global->__pyx_n_u_create_icnt, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[4])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_9create_icnt, 0, __pyx_mstate_global->__pyx_n_u_create_icnt, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[4])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_3, __pyx_t_4);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_create_icnt, __pyx_t_3) < 0) __PYX_ERR(0, 94, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_create_icnt, __pyx_t_3) < 0) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":109
+  /* "pybooksim2/pybooksim2.pyx":110
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def create_icnt_cmd_data_packet(int src_id, int dst_id, int subnet, int size, bint is_write, bint is_response):
 */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_11create_icnt_cmd_data_packet, 0, __pyx_mstate_global->__pyx_n_u_create_icnt_cmd_data_packet, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[5])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_11create_icnt_cmd_data_packet, 0, __pyx_mstate_global->__pyx_n_u_create_icnt_cmd_data_packet, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[5])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_create_icnt_cmd_data_packet, __pyx_t_3) < 0) __PYX_ERR(0, 109, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_create_icnt_cmd_data_packet, __pyx_t_3) < 0) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":116
+  /* "pybooksim2/pybooksim2.pyx":117
  *     return cap
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def create_icnt_cmd_control_packet(int src_id, int dst_id, int subnet, int size, bint is_response):
 */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_13create_icnt_cmd_control_packet, 0, __pyx_mstate_global->__pyx_n_u_create_icnt_cmd_control_packet, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[6])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 116, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_13create_icnt_cmd_control_packet, 0, __pyx_mstate_global->__pyx_n_u_create_icnt_cmd_control_packet, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[6])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 117, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_create_icnt_cmd_control_packet, __pyx_t_3) < 0) __PYX_ERR(0, 116, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_create_icnt_cmd_control_packet, __pyx_t_3) < 0) __PYX_ERR(0, 117, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":124
+  /* "pybooksim2/pybooksim2.pyx":125
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def check_icnt_cmd_received(cmd):
 */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_15check_icnt_cmd_received, 0, __pyx_mstate_global->__pyx_n_u_check_icnt_cmd_received, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[7])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 124, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_15check_icnt_cmd_received, 0, __pyx_mstate_global->__pyx_n_u_check_icnt_cmd_received, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[7])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 125, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_check_icnt_cmd_received, __pyx_t_3) < 0) __PYX_ERR(0, 124, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_check_icnt_cmd_received, __pyx_t_3) < 0) __PYX_ERR(0, 125, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":131
+  /* "pybooksim2/pybooksim2.pyx":132
  *     return flag
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
- * def check_icnt_cmd_handled(cmd):
+ * def get_expected_cmd_cycles(cmd):
 */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_17check_icnt_cmd_handled, 0, __pyx_mstate_global->__pyx_n_u_check_icnt_cmd_handled, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[8])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 131, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_17get_expected_cmd_cycles, 0, __pyx_mstate_global->__pyx_n_u_get_expected_cmd_cycles, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[8])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 132, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_check_icnt_cmd_handled, __pyx_t_3) < 0) __PYX_ERR(0, 131, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_get_expected_cmd_cycles, __pyx_t_3) < 0) __PYX_ERR(0, 132, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":138
- *     return flag
- * 
- * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
- * @cython.wraparound(False)
- * def check_icnt_node_busy(icnt, int node_id):
-*/
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_19check_icnt_node_busy, 0, __pyx_mstate_global->__pyx_n_u_check_icnt_node_busy, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[9])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 138, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_check_icnt_node_busy, __pyx_t_3) < 0) __PYX_ERR(0, 138, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-
-  /* "pybooksim2/pybooksim2.pyx":146
+  /* "pybooksim2/pybooksim2.pyx":154
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def icnt_dispatch_cmd(icnt, cmd):
 */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_21icnt_dispatch_cmd, 0, __pyx_mstate_global->__pyx_n_u_icnt_dispatch_cmd, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[10])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 146, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_19icnt_dispatch_cmd, 0, __pyx_mstate_global->__pyx_n_u_icnt_dispatch_cmd, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[9])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 154, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_icnt_dispatch_cmd, __pyx_t_3) < 0) __PYX_ERR(0, 146, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_icnt_dispatch_cmd, __pyx_t_3) < 0) __PYX_ERR(0, 154, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "pybooksim2/pybooksim2.pyx":153
- *     pybooksim2_icnt_dispatch_cmd(icnt_p, cmd_p)
- * 
- * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
- * @cython.wraparound(False)
- * def icnt_handle_cmd(icnt, cmd):
-*/
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_23icnt_handle_cmd, 0, __pyx_mstate_global->__pyx_n_u_icnt_handle_cmd, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[11])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 153, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_icnt_handle_cmd, __pyx_t_3) < 0) __PYX_ERR(0, 153, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-
-  /* "pybooksim2/pybooksim2.pyx":161
- *     return flag
+  /* "pybooksim2/pybooksim2.pyx":170
+ * #     return flag
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def icnt_cycle_step(icnt, int cycles):
 */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_25icnt_cycle_step, 0, __pyx_mstate_global->__pyx_n_u_icnt_cycle_step, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[12])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 161, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_10pybooksim2_10pybooksim2_21icnt_cycle_step, 0, __pyx_mstate_global->__pyx_n_u_icnt_cycle_step, NULL, __pyx_mstate_global->__pyx_n_u_pybooksim2_pybooksim2, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[10])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 170, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_icnt_cycle_step, __pyx_t_3) < 0) __PYX_ERR(0, 161, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_icnt_cycle_step, __pyx_t_3) < 0) __PYX_ERR(0, 170, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
   /* "pybooksim2/pybooksim2.pyx":1
@@ -5952,9 +5575,7 @@ static const __Pyx_StringTabEntry __pyx_string_tab[] = {
   {__pyx_k_ascii, sizeof(__pyx_k_ascii), 0, 1, 1}, /* PyObject cname: __pyx_n_u_ascii */
   {__pyx_k_asyncio_coroutines, sizeof(__pyx_k_asyncio_coroutines), 0, 1, 1}, /* PyObject cname: __pyx_n_u_asyncio_coroutines */
   {__pyx_k_cap, sizeof(__pyx_k_cap), 0, 1, 1}, /* PyObject cname: __pyx_n_u_cap */
-  {__pyx_k_check_icnt_cmd_handled, sizeof(__pyx_k_check_icnt_cmd_handled), 0, 1, 1}, /* PyObject cname: __pyx_n_u_check_icnt_cmd_handled */
   {__pyx_k_check_icnt_cmd_received, sizeof(__pyx_k_check_icnt_cmd_received), 0, 1, 1}, /* PyObject cname: __pyx_n_u_check_icnt_cmd_received */
-  {__pyx_k_check_icnt_node_busy, sizeof(__pyx_k_check_icnt_node_busy), 0, 1, 1}, /* PyObject cname: __pyx_n_u_check_icnt_node_busy */
   {__pyx_k_cline_in_traceback, sizeof(__pyx_k_cline_in_traceback), 0, 1, 1}, /* PyObject cname: __pyx_n_u_cline_in_traceback */
   {__pyx_k_cmd, sizeof(__pyx_k_cmd), 0, 1, 1}, /* PyObject cname: __pyx_n_u_cmd */
   {__pyx_k_cmd_p, sizeof(__pyx_k_cmd_p), 0, 1, 1}, /* PyObject cname: __pyx_n_u_cmd_p */
@@ -5975,11 +5596,11 @@ static const __Pyx_StringTabEntry __pyx_string_tab[] = {
   {__pyx_k_flag, sizeof(__pyx_k_flag), 0, 1, 1}, /* PyObject cname: __pyx_n_u_flag */
   {__pyx_k_fleid, sizeof(__pyx_k_fleid), 0, 1, 1}, /* PyObject cname: __pyx_n_u_fleid */
   {__pyx_k_func, sizeof(__pyx_k_func), 0, 1, 1}, /* PyObject cname: __pyx_n_u_func */
+  {__pyx_k_get_expected_cmd_cycles, sizeof(__pyx_k_get_expected_cmd_cycles), 0, 1, 1}, /* PyObject cname: __pyx_n_u_get_expected_cmd_cycles */
   {__pyx_k_get_sim_time, sizeof(__pyx_k_get_sim_time), 0, 1, 1}, /* PyObject cname: __pyx_n_u_get_sim_time */
   {__pyx_k_icnt, sizeof(__pyx_k_icnt), 0, 1, 1}, /* PyObject cname: __pyx_n_u_icnt */
   {__pyx_k_icnt_cycle_step, sizeof(__pyx_k_icnt_cycle_step), 0, 1, 1}, /* PyObject cname: __pyx_n_u_icnt_cycle_step */
   {__pyx_k_icnt_dispatch_cmd, sizeof(__pyx_k_icnt_dispatch_cmd), 0, 1, 1}, /* PyObject cname: __pyx_n_u_icnt_dispatch_cmd */
-  {__pyx_k_icnt_handle_cmd, sizeof(__pyx_k_icnt_handle_cmd), 0, 1, 1}, /* PyObject cname: __pyx_n_u_icnt_handle_cmd */
   {__pyx_k_icnt_p, sizeof(__pyx_k_icnt_p), 0, 1, 1}, /* PyObject cname: __pyx_n_u_icnt_p */
   {__pyx_k_is_coroutine, sizeof(__pyx_k_is_coroutine), 0, 1, 1}, /* PyObject cname: __pyx_n_u_is_coroutine */
   {__pyx_k_is_response, sizeof(__pyx_k_is_response), 0, 1, 1}, /* PyObject cname: __pyx_n_u_is_response */
@@ -5987,7 +5608,6 @@ static const __Pyx_StringTabEntry __pyx_string_tab[] = {
   {__pyx_k_main, sizeof(__pyx_k_main), 0, 1, 1}, /* PyObject cname: __pyx_n_u_main */
   {__pyx_k_module, sizeof(__pyx_k_module), 0, 1, 1}, /* PyObject cname: __pyx_n_u_module */
   {__pyx_k_name, sizeof(__pyx_k_name), 0, 1, 1}, /* PyObject cname: __pyx_n_u_name */
-  {__pyx_k_node_id, sizeof(__pyx_k_node_id), 0, 1, 1}, /* PyObject cname: __pyx_n_u_node_id */
   {__pyx_k_output_file, sizeof(__pyx_k_output_file), 0, 1, 1}, /* PyObject cname: __pyx_n_u_output_file */
   {__pyx_k_output_file_p, sizeof(__pyx_k_output_file_p), 0, 1, 1}, /* PyObject cname: __pyx_n_u_output_file_p */
   {__pyx_k_pop, sizeof(__pyx_k_pop), 0, 1, 1}, /* PyObject cname: __pyx_n_u_pop */
@@ -6024,8 +5644,8 @@ static int __Pyx_InitStrings(__Pyx_StringTabEntry const *t, PyObject **target, c
 
 static int __Pyx_InitCachedBuiltins(__pyx_mstatetype *__pyx_mstate) {
   CYTHON_UNUSED_VAR(__pyx_mstate);
-  __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(0, 91, __pyx_L1_error)
-  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_range); if (!__pyx_builtin_range) __PYX_ERR(0, 165, __pyx_L1_error)
+  __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(0, 92, __pyx_L1_error)
+  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_range); if (!__pyx_builtin_range) __PYX_ERR(0, 174, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -6076,69 +5696,59 @@ static int __Pyx_CreateCodeObjects(__pyx_mstatetype *__pyx_mstate) {
   PyObject* tuple_dedup_map = PyDict_New();
   if (unlikely(!tuple_dedup_map)) return -1;
   {
-    const __Pyx_PyCode_New_function_description descr = {0, 0, 0, 0, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 32, 11};
+    const __Pyx_PyCode_New_function_description descr = {0, 0, 0, 0, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 33, 11};
     PyObject* const varnames[] = {0};
     __pyx_mstate_global->__pyx_codeobj_tab[0] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_pybooksim2_pybooksim2_pyx, __pyx_mstate->__pyx_n_u_get_sim_time, __pyx_k_Q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[0])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {1, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 58, 52};
+    const __Pyx_PyCode_New_function_description descr = {1, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 59, 52};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_config_file, __pyx_mstate->__pyx_n_u_config_file_p, __pyx_mstate->__pyx_n_u_config_p, __pyx_mstate->__pyx_n_u_cap};
     __pyx_mstate_global->__pyx_codeobj_tab[1] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_pybooksim2_pybooksim2_pyx, __pyx_mstate->__pyx_n_u_create_config_from_file, __pyx_k_q_7_1_AQ_q_77Na_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[1])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 7, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 66, 44};
+    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 7, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 67, 44};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_subnets, __pyx_mstate->__pyx_n_u_x, __pyx_mstate->__pyx_n_u_y, __pyx_mstate->__pyx_n_u_xr, __pyx_mstate->__pyx_n_u_yr, __pyx_mstate->__pyx_n_u_config_p, __pyx_mstate->__pyx_n_u_cap};
     __pyx_mstate_global->__pyx_codeobj_tab[2] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_pybooksim2_pybooksim2_pyx, __pyx_mstate->__pyx_n_u_create_config_torus_2d, __pyx_k_1IS_4q_q_77Na_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[2])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 8, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 73, 131};
+    const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 8, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 74, 131};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_config, __pyx_mstate->__pyx_n_u_fleid, __pyx_mstate->__pyx_n_u_value, __pyx_mstate->__pyx_n_u_config_p, __pyx_mstate->__pyx_n_u_field_b, __pyx_mstate->__pyx_n_u_field_p, __pyx_mstate->__pyx_n_u_value_str_b, __pyx_mstate->__pyx_n_u_value_str_p};
     __pyx_mstate_global->__pyx_codeobj_tab[3] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_pybooksim2_pybooksim2_pyx, __pyx_mstate->__pyx_n_u_update_config, __pyx_k_axq_gQa_z_AZy_1G1_q_1_1G1_e7_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[3])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 8, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 94, 92};
+    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 8, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 95, 92};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_config, __pyx_mstate->__pyx_n_u_print_activity, __pyx_mstate->__pyx_n_u_print_trace, __pyx_mstate->__pyx_n_u_output_file, __pyx_mstate->__pyx_n_u_config_p, __pyx_mstate->__pyx_n_u_output_file_p, __pyx_mstate->__pyx_n_u_icnt_p, __pyx_mstate->__pyx_n_u_cap};
     __pyx_mstate_global->__pyx_codeobj_tab[4] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_pybooksim2_pybooksim2_pyx, __pyx_mstate->__pyx_n_u_create_icnt, __pyx_k_C1_axq_3a_G1A_az9I_VW_q_33J_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[4])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {6, 0, 0, 8, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 109, 49};
+    const __Pyx_PyCode_New_function_description descr = {6, 0, 0, 8, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 110, 49};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_src_id, __pyx_mstate->__pyx_n_u_dst_id, __pyx_mstate->__pyx_n_u_subnet, __pyx_mstate->__pyx_n_u_size, __pyx_mstate->__pyx_n_u_is_write, __pyx_mstate->__pyx_n_u_is_response, __pyx_mstate->__pyx_n_u_cmd_p, __pyx_mstate->__pyx_n_u_cap};
     __pyx_mstate_global->__pyx_codeobj_tab[5] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_pybooksim2_pybooksim2_pyx, __pyx_mstate->__pyx_n_u_create_icnt_cmd_data_packet, __pyx_k_QhhhV_ffg_q_11H_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[5])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 7, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 116, 47};
+    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 7, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 117, 47};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_src_id, __pyx_mstate->__pyx_n_u_dst_id, __pyx_mstate->__pyx_n_u_subnet, __pyx_mstate->__pyx_n_u_size, __pyx_mstate->__pyx_n_u_is_response, __pyx_mstate->__pyx_n_u_cmd_p, __pyx_mstate->__pyx_n_u_cap};
     __pyx_mstate_global->__pyx_codeobj_tab[6] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_pybooksim2_pybooksim2_pyx, __pyx_mstate->__pyx_n_u_create_icnt_cmd_control_packet, __pyx_k_QYY___q_11H_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[6])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {1, 0, 0, 3, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 124, 31};
+    const __Pyx_PyCode_New_function_description descr = {1, 0, 0, 3, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 125, 31};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_cmd, __pyx_mstate->__pyx_n_u_cmd_p, __pyx_mstate->__pyx_n_u_flag};
     __pyx_mstate_global->__pyx_codeobj_tab[7] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_pybooksim2_pybooksim2_pyx, __pyx_mstate->__pyx_n_u_check_icnt_cmd_received, __pyx_k_1E_7q_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[7])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {1, 0, 0, 3, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 131, 31};
-    PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_cmd, __pyx_mstate->__pyx_n_u_cmd_p, __pyx_mstate->__pyx_n_u_flag};
-    __pyx_mstate_global->__pyx_codeobj_tab[8] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_pybooksim2_pybooksim2_pyx, __pyx_mstate->__pyx_n_u_check_icnt_cmd_handled, __pyx_k_1E_6aq_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[8])) goto bad;
+    const __Pyx_PyCode_New_function_description descr = {1, 0, 0, 3, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 132, 31};
+    PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_cmd, __pyx_mstate->__pyx_n_u_cmd_p, __pyx_mstate->__pyx_n_u_cycles};
+    __pyx_mstate_global->__pyx_codeobj_tab[8] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_pybooksim2_pybooksim2_pyx, __pyx_mstate->__pyx_n_u_get_expected_cmd_cycles, __pyx_k_1E_8_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[8])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 138, 33};
-    PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_icnt, __pyx_mstate->__pyx_n_u_node_id, __pyx_mstate->__pyx_n_u_icnt_p, __pyx_mstate->__pyx_n_u_flag};
-    __pyx_mstate_global->__pyx_codeobj_tab[9] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_pybooksim2_pybooksim2_pyx, __pyx_mstate->__pyx_n_u_check_icnt_node_busy, __pyx_k_AV1_4AXQ_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[9])) goto bad;
-  }
-  {
-    const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 146, 37};
-    PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_icnt, __pyx_mstate->__pyx_n_u_cmd, __pyx_mstate->__pyx_n_u_icnt_p, __pyx_mstate->__pyx_n_u_cmd_p};
-    __pyx_mstate_global->__pyx_codeobj_tab[10] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_pybooksim2_pybooksim2_pyx, __pyx_mstate->__pyx_n_u_icnt_dispatch_cmd, __pyx_k_AV1_1E, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[10])) goto bad;
-  }
-  {
-    const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 5, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 153, 45};
+    const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 5, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 154, 45};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_icnt, __pyx_mstate->__pyx_n_u_cmd, __pyx_mstate->__pyx_n_u_icnt_p, __pyx_mstate->__pyx_n_u_cmd_p, __pyx_mstate->__pyx_n_u_flag};
-    __pyx_mstate_global->__pyx_codeobj_tab[11] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_pybooksim2_pybooksim2_pyx, __pyx_mstate->__pyx_n_u_icnt_handle_cmd, __pyx_k_AV1_1E_q_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[11])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[9] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_pybooksim2_pybooksim2_pyx, __pyx_mstate->__pyx_n_u_icnt_dispatch_cmd, __pyx_k_AV1_1E_1_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[9])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 161, 34};
+    const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 170, 34};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_icnt, __pyx_mstate->__pyx_n_u_cycles, __pyx_mstate->__pyx_n_u_icnt_p, __pyx_mstate->__pyx_n_u__2};
-    __pyx_mstate_global->__pyx_codeobj_tab[12] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_pybooksim2_pybooksim2_pyx, __pyx_mstate->__pyx_n_u_icnt_cycle_step, __pyx_k_AV1_U_1_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[12])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[10] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_pybooksim2_pybooksim2_pyx, __pyx_mstate->__pyx_n_u_icnt_cycle_step, __pyx_k_AV1_U_1_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[10])) goto bad;
   }
   Py_DECREF(tuple_dedup_map);
   return 0;

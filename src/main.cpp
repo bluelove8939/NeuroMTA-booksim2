@@ -26,18 +26,18 @@ int main(int argc, char **argv) {
         if (pybooksim2_check_icnt_cmd_received(cmd)) {
             printf("Command received successfully at timestamp '%d'\n", GetSimTime());
 
-            for (j = 0; j < 10; j++) {
-                pybooksim2_icnt_cycle_step(icnt);
-                printf("Node %d is busy? %d at '%d'\n", dst_id, pybooksim2_check_icnt_node_busy(icnt, dst_id), GetSimTime());
-            }
+            // for (j = 0; j < 10; j++) {
+            //     pybooksim2_icnt_cycle_step(icnt);
+            //     printf("Node %d is busy? %d at '%d'\n", dst_id, pybooksim2_check_icnt_node_busy(icnt, dst_id), GetSimTime());
+            // }
 
-            if (pybooksim2_icnt_handle_cmd(icnt, cmd)) {
-                printf("Command handled successfully at timestamp '%d'\n", GetSimTime());
-            } else {
-                printf("Command handling failed at timestamp '%d'\n", GetSimTime());
-            }
+            // if (pybooksim2_icnt_handle_cmd(icnt, cmd)) {
+            //     printf("Command handled successfully at timestamp '%d'\n", GetSimTime());
+            // } else {
+            //     printf("Command handling failed at timestamp '%d'\n", GetSimTime());
+            // }
 
-            printf("Node %d is busy? %d at '%d'\n", dst_id, pybooksim2_check_icnt_node_busy(icnt, dst_id), GetSimTime());
+            // printf("Node %d is busy? %d at '%d'\n", dst_id, pybooksim2_check_icnt_node_busy(icnt, dst_id), GetSimTime());
 
             break;
         }
